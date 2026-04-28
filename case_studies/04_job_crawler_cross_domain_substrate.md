@@ -34,7 +34,7 @@ This is the cross-domain SRD claim made explicit. The framework's structure:
 
 | Domain | Source modules | Normalized item | LLM rubric | Output |
 |---|---|---|---|---|
-| **Jobs** (current) | RemoteOK / WWR / Handshake / Indeed / Wellfound / ZipRecruiter / Crawl4AI / Kaggle + 5 new Tier-A (Remotive / Jobicy / Working Nomads / Remote.co / SkipTheDrive) | `NormalizedJob` dataclass | overemployment rubric v1 + v2.1 | shortlist + cover letters |
+| **Jobs** (current) | RemoteOK / WWR / Indeed / Wellfound / ZipRecruiter / Crawl4AI / Kaggle + 5 new Tier-A (Remotive / Jobicy / Working Nomads / Remote.co / SkipTheDrive) | `NormalizedJob` dataclass | deployer-specific scoring rubric | shortlist + cover letters |
 | **Canvas** (proposed) | recursive course-page crawler | `NormalizedCanvasItem` (assignment / module / page / file) | "what's new since last crawl" rubric | daily Canvas digest |
 | **GitHub** (proposed) | repo discovery crawler | `NormalizedRepo` (Substrate-Thesis-relevant signals) | competitive-intelligence rubric | weekly research-horizon digest |
 | **General** (existing) | `crawl4ai_generic.py` fallback | `NormalizedWebItem` | per-domain LLM rubric | per-domain digest |

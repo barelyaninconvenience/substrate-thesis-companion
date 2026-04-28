@@ -1,5 +1,5 @@
 # The Substrate I Didn't Know I Was Building
-## Essay 1 of 7 — Substrate Thesis series · First draft 2026-04-24
+## Essay 1 of 7 — Substrate Thesis series
 
 ---
 
@@ -73,7 +73,7 @@ If the patterns *do* match your experience and you want better names for them, t
 
 A note on the word, because two adjacent uses of it exist in the same vocabulary space and I want to be clear about provenance.
 
-Daniel Miessler maintains a public framework called Substrate (github.com/danielmiessler/Substrate, 799 stars at time of writing). His Substrate is collective — a shared knowledge platform where people document Problems, Solutions, Plans, Outcomes, Arguments, and connect them across organizations and projects. It's a Wikipedia-adjacent infrastructure for collective knowledge work.
+Daniel Miessler maintains a public framework called Substrate (github.com/danielmiessler/Substrate, widely-starred as of this writing in 2026). His Substrate is collective — a shared knowledge platform where people document Problems, Solutions, Plans, Outcomes, Arguments, and connect them across organizations and projects. It's a Wikipedia-adjacent infrastructure for collective knowledge work.
 
 What I'm writing about in this series is something different at the scale dimension: *personal* substrate, the cognitive infrastructure of an individual practitioner. Not a shared platform; an architectural framework for how one person's working environment holds together.
 
@@ -112,4 +112,4 @@ If the framework is useful, take it. If you find places where it breaks down, wr
 
 ---
 
-*Substrate Thesis · Essay 1 of 7 · First draft 2026-04-24 · Subject to revision before publication. The author is an Information Systems graduate student building toward a PhD application in cybersecurity research while maintaining a personal substrate that includes multiple analytical datasets, tens of thousands of words of personal writing, a multi-source structured-data crawler, dozens of PowerShell automation scripts, and the audit cadences that keep all of it coherent. The Substrate Thesis is what fell out of trying to keep the substrate from collapsing under its own weight.*
+*Substrate Thesis · Essay 1 of 7. The author is an Information Systems graduate student building toward a PhD application in cybersecurity research while maintaining a personal substrate that includes multiple analytical datasets, tens of thousands of words of personal writing, a multi-source structured-data crawler, dozens of PowerShell automation scripts, and the audit cadences that keep all of it coherent. The Substrate Thesis is what fell out of trying to keep the substrate from collapsing under its own weight.*
