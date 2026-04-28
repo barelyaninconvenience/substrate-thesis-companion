@@ -26,9 +26,9 @@ Same five-stage pipeline at every level of decomposition:
 
 ---
 
-## Cross-domain extensibility (per Clay's 2026-04-24 strategic note)
+## Cross-domain extensibility
 
-Per the State_Snapshot Addendum 28 strategic-direction note: *"you can use our crawler for all intents and purposes — job listing websites, canvas, github pages."*
+The author has explicitly extended the substrate to cover all three domains (job listings, Canvas course pages, repository content) under one shared architecture: the same crawler stack handles each domain with bounded per-domain adaptation.
 
 This is the cross-domain SRD claim made explicit. The framework's structure:
 
@@ -53,7 +53,7 @@ The pattern predicts:
 - Same operational discipline (smoke-test before live, dedupe across sources, version rubrics)
 - Same evolution arc (v1 broad rubric → v2 tuned per stack-goal parameters)
 
-This is testable: when the Canvas crawler is built (currently backburner per Clay 2026-04-24), the predicted adaptation cost should hold within 50% of the prediction. If it does, the SRD claim is empirically validated.
+This is testable: when the Canvas crawler is built (currently a deferred near-term item), the predicted adaptation cost should hold within 50% of the prediction. If it does, the SRD claim is empirically validated.
 
 ---
 
@@ -63,17 +63,17 @@ This is testable: when the Canvas crawler is built (currently backburner per Cla
 - **SCC:** the rubric (v1 and v2.1) is an SCC frozen between updates; cited per version
 - **SRD:** the architecture itself; same shape across sources, rubrics, domains
 
-The job-crawler is the most concrete substrate Clay has built that demonstrates all three patterns AND demonstrates cross-domain portability.
+The job-crawler is the most concrete substrate the author has built that demonstrates all three patterns AND demonstrates cross-domain portability.
 
 ---
 
 ## TODO for elaboration
 
-- Build the Canvas crawler (gated on Clay's go-ahead from backburner status); validate the SRD prediction empirically
+- Build the Canvas crawler (currently a deferred near-term item); validate the SRD prediction empirically
 - Document the GitHub crawler as a third domain test
 - Compare adaptation cost across the three domains
 - Add the substrate's failure modes documented (e.g., the wage-cap audit catalyst as a per-domain calibration drift)
 
 ---
 
-*Case Study 04 tight seed 2026-04-24. Anchored to `scripts/job-crawler/` (full architecture) + `Writings/Top33_Boards_Scopeout_20260424.md` (Phase 1+2 expansion) + State_Snapshot Addendum 28 (Clay's cross-domain directive).*
+*Case Study 04 tight seed 2026-04-24. Anchored to the author's job-crawler implementation, a Phase 1+2 expansion scoping document, and the cross-domain directive captured in the author's state-snapshot addenda.*

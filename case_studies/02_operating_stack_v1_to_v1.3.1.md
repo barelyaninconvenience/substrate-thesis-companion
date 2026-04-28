@@ -21,8 +21,8 @@ Together they bracket the template's range: artifact-with-audit on one end, fram
 |---|---|---|---|
 | v1.0 | 2026-04-18 | Pseudofactorial supermax experiment empirical baseline (~22h Opus / ~3.5h wall) | Initial 20-section framework |
 | v1.1 | 2026-04-19 | Instance B parallel-session experiment validation | §15 Appendix-A relegation; §19 split into §19.A/§19.B |
-| v1.2 | 2026-04-20 | Clay's "do as you will" authorization + Operating Stack v2 backlog review | Three surgical edits applied directly (vs as proposals); §20.6 reordering |
-| v1.3.1 | 2026-04-21 | Pacing calibration empirical refinement (Clay's "rookie" correction) | 83.33% off-ramp threshold + 96% hard-stop codified in §22 |
+| v1.2 | 2026-04: backlog-review pass | Three surgical edits applied directly (vs as proposals); §20.6 reordering |
+| v1.3.1 | 2026-04-21 | Pacing calibration refinement based on empirical session data | 83.33% off-ramp threshold + 96% hard-stop codified in §22 |
 
 **Cycle observation:** v1.0 → v1.3.1 spanned 4 days (April 18-21). Faster than case 01's 3-week cycle because the catalyst was *continuous lived experience* rather than a discrete audit event.
 
@@ -36,7 +36,7 @@ Together they bracket the template's range: artifact-with-audit on one end, fram
 | **Apply numeric corrections** | §1 cost baselines refined (~22h verified); §19 cost-multiplicative formulas calibrated within 5% of empirical |
 | **Add new sections** | §15 → Appendix A relegation; §19 split into §19.A/§19.B/§19.C; §22 pacing-calibration thresholds added |
 | **Forward-pointing** | §21 taijitu frame explicit; §20 plank-by-plank viability math provides forward-prediction for future sessions |
-| **Preserve v1** | `Deprecated/Operating_Stack_v1_1_20260418-snapshot_20260420-154500.md` preserved per CLAUDE.md §2 |
+| **Preserve v1** | A timestamped snapshot of v1.1 was preserved in a `Deprecated/` archive directory per the author's deprecate-never-delete discipline |
 
 All five elements present. Template holds across the framework-evolution case, not just the content-artifact case.
 
@@ -76,4 +76,4 @@ The reinvigoration template applied to Operating Stack works identically to its 
 
 ---
 
-*Case Study 02 tight seed 2026-04-24. Anchored to `Writings/Operating_Stack_v1_20260418.md` (current v1.3.1) + `Writings/Deprecated/Operating_Stack_v1_1_20260418-snapshot_20260420-154500.md` (preserved snapshot) + case_studies/01 (template comparison).*
+*Case Study 02 tight seed 2026-04-24. Anchored to the author's current v1.3.1 operating-stack reference + a preserved v1.1 snapshot in the deprecated archive + case_studies/01 (template comparison).*

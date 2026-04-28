@@ -1,7 +1,7 @@
 # Publication Strategy
 ## Substrate Thesis — venue + format + cadence decisions
 
-**Status:** First seed 2026-04-24. Decision artifact for Clay (per `docs/thesis_v1_outline.md` decision deadline 2026-05-15).
+**Status:** First seed 2026-04-24. Decision artifact for the author (per `docs/thesis_v1_outline.md` decision deadline 2026-05-15).
 
 ---
 
@@ -54,9 +54,9 @@ This sequencing:
 **Cadence:** Bi-weekly. Allows ~2 weeks per essay for writing + 1 week for reader feedback before next.
 
 **Pre-publication preparation (April 25 → May 15):**
-- [ ] Substack/Medium account setup (Clay)
+- [ ] Substack/Medium account setup
 - [ ] Substrate Thesis Companion repo made public on GitHub (so essays can link)
-- [ ] Pre-readers identified (3-5 from Clay's professional network)
+- [ ] Pre-readers identified (3-5 from the author's professional network)
 - [ ] Theory seed docs substantively elaborated (current versions are seeds; need 2x expansion)
 - [ ] Voice consistency check across 2-3 draft essays
 - [ ] Visual style decision (diagrams? code snippets? minimal text?)
@@ -132,7 +132,7 @@ This sequencing:
 
 ### Voice + tone
 
-- Substack: first-person practitioner; SIGINT-trained analytical sharpness; concrete examples over abstract arguments
+- Substack: first-person practitioner; analytically rigorous voice; concrete examples over abstract arguments
 - Academic paper: third-person formal; cited literature; methodology section
 - Book: hybrid — first-person narrative arc with rigorous technical depth
 
@@ -181,4 +181,4 @@ Defer Phase 2 + 3 commitments to mid-series + end-of-series retrospectives. Don'
 
 ---
 
-*Publication Strategy first seed 2026-04-24. Decision artifact for Clay's 2026-05-15 commitment. Companion to `docs/thesis_v1_outline.md` + `docs/prior_art_survey.md` (next).*
+*Publication Strategy first seed 2026-04-24. Decision artifact for the 2026-05-15 commitment milestone. Companion to `docs/thesis_v1_outline.md` + `docs/prior_art_survey.md` (next).*

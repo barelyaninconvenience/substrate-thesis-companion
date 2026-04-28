@@ -1,0 +1,20 @@
+# Substrate Thesis Companion — .gitignore
+
+# Private archive — explicitly NOT for public publication
+case_studies/Deprecated_Private/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local working artifacts
+.scratch/
+*.tmp
+*.bak

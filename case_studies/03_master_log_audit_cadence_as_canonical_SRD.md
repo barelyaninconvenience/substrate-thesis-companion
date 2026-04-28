@@ -7,7 +7,7 @@
 
 ## Why this case is canonical
 
-Cases 01-02 surfaced FKS / SCC / SRD as patterns observed in retrospect. Case 03 is the only instance where the SRD pattern was **deliberately designed** rather than recognized after-the-fact. The Master Log + Audit Cadence framework is the cleanest empirical demonstration of the SRD pattern Clay has built.
+Cases 01-02 surfaced FKS / SCC / SRD as patterns observed in retrospect. Case 03 is the only instance where the SRD pattern was **deliberately designed** rather than recognized after-the-fact. The author's master-log + audit-cadence framework is the cleanest empirical demonstration of the SRD pattern in this substrate.
 
 ---
 
@@ -101,4 +101,4 @@ All three patterns demonstrably present. The framework was designed to surface t
 
 ---
 
-*Case Study 03 tight seed 2026-04-24. Anchored to `Writings/Master_Log_Audit_Cadence_20260424.md` (the design doc) + `Writings/ENDEAVOR_Loop_README_20260424.md` (the operational guide) + `scripts/SOK-WeeklyAudit.ps1` + `scripts/SOK-MonthlyAudit.ps1` (the implementation).*
+*Case Study 03 tight seed 2026-04-24. Anchored to the author's master-log audit-cadence design document, an associated operational-guide companion, and the weekly/monthly audit PowerShell implementations.*

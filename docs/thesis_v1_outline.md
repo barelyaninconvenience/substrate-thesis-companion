@@ -1,8 +1,8 @@
 # Substrate Thesis — v1 Paper Outline
 ## From personal-OS practice to publishable framework
 
-**Status:** First seed outline 2026-04-24 (overnight autonomous). Subject to substantial revision once Clay commits to publication venue.
-**Anchored to:** `theory/{FKS,SCC,SRD}_Definition_and_Examples.md` + `case_studies/01_descriptive_insights_v1_to_v2.md` + `Writings/Substrate_Thesis_Genesis_Extract_20260420.md`
+**Status:** First seed outline. Subject to substantial revision once a publication venue is committed.
+**Anchored to:** `theory/{FKS,SCC,SRD}_Definition_and_Examples.md` + `case_studies/01_descriptive_insights_v1_to_v2.md`
 
 ---
 
@@ -21,10 +21,10 @@ The right outline depends on the venue. Three candidate paths:
 | Venue | Audience | Tone | Length | Effort |
 |---|---|---|---|---|
 | **Academic paper (workshop or journal)** | CS / HCI / personal informatics researchers | Formal; literature-cited | 8-15 pages | 100-200 hrs incl. citations |
-| **Substack / Medium series (5-7 essays)** | Technical-but-non-academic readers; PKM community; Clay's professional network | Practitioner-narrative; example-heavy | ~3000 words/essay × 5-7 | 40-80 hrs |
+| **Substack / Medium series (5-7 essays)** | Technical-but-non-academic readers; PKM community; the author's professional network | Practitioner-narrative; example-heavy | ~3000 words/essay × 5-7 | 40-80 hrs |
 | **Book (self-published or trade)** | Crossover technical-narrative readers | Narrative arc + worked examples + practical templates | 50-80K words | 300-600 hrs |
 
-**Recommendation pending Clay's commitment:** start with Substack series (lowest commitment-cost; iterates fast; builds audience that informs whether academic or book path is worth pursuing).
+**Recommendation pending the author's commitment:** start with Substack series (lowest commitment-cost; iterates fast; builds audience that informs whether academic or book path is worth pursuing).
 
 This outline is structured for the **Substack series option** — 7 essays with arc + per-essay structure. Adaptable to the academic or book paths by reorganization.
 
@@ -68,7 +68,7 @@ This outline is structured for the **Substack series option** — 7 essays with 
 1. Define SCC formally (5 properties from `theory/SCC_Definition_and_Examples.md`)
 2. Worked Example A: protocol_*.md files as decision-pattern SCCs (5 protocols × frozen-between-updates pattern)
 3. Worked Example B: State_Snapshot_Current.md as personal-OS state SCC (29+ Addenda; daily-deltas + periodic-regeneration)
-4. Worked Example C: Apex Analytics 10 methodology decisions as project-scope SCCs
+4. Worked Example C: Methodology Decision Log as project-scope SCC (CRISP-DM-aligned data-mining project; documented decisions for algorithm choice / hyperparameters / preprocessing / sample selection / etc.)
 5. Anti-pattern: the stale container (acting on an outdated SCC because the regeneration cadence broke)
 6. Why SCCs matter: trade real-time accuracy for bounded cognitive load; enable referencing rather than re-deriving
 7. Practical exercise: identify the SCCs in your own workflow + check their freshness
@@ -127,7 +127,7 @@ This outline is structured for the **Substack series option** — 7 essays with 
 
 **Structure:**
 1. The Minimum Viable Substrate (MVS): one CLAUDE.md (or equivalent), one MEMORY.md index, three core memory files, one State_Snapshot equivalent, one weekly-audit cadence
-2. The audit cadence framework + templates (link to `Writings/Master_Log_Audit_Cadence_20260424.md`)
+2. The audit cadence framework + templates (W/M/Q/A worked examples, drawing on the case studies in this repository)
 3. The reinvigoration template (link to case_studies/01)
 4. Decision rules: when to add a new SCC vs extend an existing one; when to add a new audit cadence vs use existing
 5. Common 0-to-30-days journey + 30-to-90-days expansion + 90-to-365-days maturation
@@ -147,7 +147,7 @@ Reader experience requires consistent through-lines:
 2. **Vocabulary anchoring** — each essay defines or re-uses FKS/SCC/SRD terms with same definitions (no drift)
 3. **Practical exercises** — each essay ends with a "try this in your own workflow" prompt
 4. **Companion repository references** — each essay points readers to the public repo for deeper material
-5. **Voice consistency** — first-person practitioner perspective; SIGINT-trained analytical sharpness; concrete examples over abstract arguments
+5. **Voice consistency** — first-person practitioner perspective; analytically rigorous voice; concrete examples over abstract arguments
 
 ---
 
@@ -159,8 +159,8 @@ Before publishing Essay 1:
 - [ ] Theory seed docs (`theory/{FKS,SCC,SRD}_Definition_and_Examples.md`) substantively elaborated (current versions are seeds; need 2x expansion + formal-citation work)
 - [ ] At least 3 case studies completed (case_studies/01 done; 02-04 needed before publication for cross-essay reference robustness)
 - [ ] Personal narrative voice consistent across 2-3 draft essays before commitment
-- [ ] Pre-readers identified (Clay's professional network — at least 3 readers for early-essay feedback)
-- [ ] Substack or Medium account set up (Clay's pen)
+- [ ] Pre-readers identified (the author's professional network — at least 3 readers for early-essay feedback)
+- [ ] Substack or Medium account set up (under the author's pen)
 - [ ] Publication cadence committed (suggest: 1 essay per 2 weeks for 7 essays = 14-week run)
 
 ---
@@ -207,9 +207,8 @@ Acknowledged gaps:
 - Technical depth balance — how much code/script content per essay vs prose
 - Diagram requirements (3-5 diagrams expected for visual learners)
 - Reader-pull mechanism (what makes Essay 1 compelling enough to subscribe?)
-- Personal disclosure scope (how much of Clay's IS-program / SIGINT background to surface)
 
-These can be elaborated when Clay commits to a venue + scope.
+These can be elaborated once the author commits to a venue + scope.
 
 ---
 
@@ -217,17 +216,17 @@ These can be elaborated when Clay commits to a venue + scope.
 
 | Date | Action | Owner |
 |---|---|---|
-| 2026-05-15 | Decide publication venue (Substack / academic / book / hybrid) | Clay |
-| 2026-06-01 | Substantively elaborate the 3 theory seed docs (theory/{FKS,SCC,SRD}) | Future Claude session or Clay |
-| 2026-06-15 | Complete case_studies/02 (Operating Stack v1 → v1.3.1) | Future Claude session |
-| 2026-06-30 | Complete case_studies/03 (Master Log + Audit Cadence as canonical SRD) | Future Claude session |
-| 2026-07-15 | Draft Essay 1 (recognition moment) — first published essay | Clay (with Claude assistance) |
-| 2026-07-31 | Pre-publication readers identified + first-essay feedback | Clay |
-| 2026-08-15 | Substack/Medium account live + Essay 1 published | Clay |
-| 2026-08-29 | Essay 2 published | Clay |
-| 2026-09-12 → 2026-11-21 | Essays 3-7 published bi-weekly | Clay |
-| 2026-12-01 | Series retrospective + decide on academic-paper or book extension | Clay |
+| 2026-05-15 | Decide publication venue (Substack / academic / book / hybrid) | author |
+| 2026-06-01 | Substantively elaborate the 3 theory seed docs (theory/{FKS,SCC,SRD}) | author / future drafting session |
+| 2026-06-15 | Complete case_studies/02 (Operating Stack v1 → v1.3.1) | future drafting session |
+| 2026-06-30 | Complete case_studies/03 (Master Log + Audit Cadence as canonical SRD) | future drafting session |
+| 2026-07-15 | Draft Essay 1 (recognition moment) — first published essay | author (with AI drafting assistance) |
+| 2026-07-31 | Pre-publication readers identified + first-essay feedback | author |
+| 2026-08-15 | Substack/Medium account live + Essay 1 published | author |
+| 2026-08-29 | Essay 2 published | author |
+| 2026-09-12 → 2026-11-21 | Essays 3-7 published bi-weekly | author |
+| 2026-12-01 | Series retrospective + decide on academic-paper or book extension | author |
 
 ---
 
-*Thesis Outline first seed 2026-04-24. Subject to substantial revision at publication-venue commitment. Strategic value: gives Clay an artifact to weigh against the venue decision rather than approaching the question abstractly.*
+*Thesis Outline first seed 2026-04-24. Subject to substantial revision at publication-venue commitment. Strategic value: provides a concrete artifact to weigh against the venue decision rather than approaching the question abstractly.*
