@@ -1,5 +1,5 @@
 # Build Your Own Substrate
-## Essay 7 of 7 — Substrate Thesis series · First draft 2026-04-24
+## Essay 7 of 7 — Substrate Thesis series
 
 ---
 
@@ -143,4 +143,4 @@ The substrate is a starting point, not an end state. The patterns are vocabulary
 
 ---
 
-*Substrate Thesis · Essay 7 of 7 · First draft 2026-04-24 · Light revision 2026-04-25 (added "External tools that compose with your substrate" elaboration option referencing mempalace + doobidoo as Category 5 homeomorphism instances; closes the Essays 1-7 mempalace integration arc started in Essay 2) · Subject to further revision before publication. Series concludes with this essay. Substrate Thesis Companion repository (github.com/barelyaninconvenience/substrate-thesis-companion) holds the deeper material referenced throughout the series. Future case studies + prevalence research will accumulate as the framework is tested by other practitioners. Category 5 homeomorphism evidence (mempalace and adjacent) at substrate-thesis-companion/docs/prior_art_survey.md §5.*
+*Substrate Thesis · Essay 7 of 7 · Series concludes with this essay. Substrate Thesis Companion repository (github.com/barelyaninconvenience/substrate-thesis-companion) holds the deeper material referenced throughout the series. Future case studies + prevalence research will accumulate as the framework is tested by other practitioners. Category 5 homeomorphism evidence (mempalace and adjacent) at substrate-thesis-companion/docs/prior_art_survey.md §5.*

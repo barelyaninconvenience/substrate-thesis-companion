@@ -1,5 +1,5 @@
 # Stable Recursive Decomposition — Same Pattern, Every Scale
-## Essay 4 of 7 — Substrate Thesis series · First draft 2026-04-24
+## Essay 4 of 7 — Substrate Thesis series
 
 ---
 
@@ -210,4 +210,4 @@ If SRD doesn't resonate — if your cognitive infrastructure exhibits something 
 
 ---
 
-*Substrate Thesis · Essay 4 of 7 · First draft 2026-04-24 · Light revision 2026-04-25 (added mempalace homeomorphism instance in "Where SRDs show up" section per Category 5 prior-art finding) · Subject to further revision before publication. Theory backing: substrate-thesis-companion/theory/SRD_Definition_and_Examples.md (v2.1, expanded 2026-04-24). Six worked examples, eight anti-patterns with mitigations, formal structure-preserving-map-plus-domain-portability-test notation, four anti-case studies (failed SRD portability attempts and what they teach), SRD-at-different-scales meta-observation, practitioner-framework comparison (Forte BASB / Matuschak Evergreen / Allen GTD / Luhmann Zettelkasten / Helland immutability), and compliance metrics (proposed SRD Health Index with compound-recognition-value metric) all live there. Category 5 homeomorphism evidence (mempalace and adjacent) lives at substrate-thesis-companion/docs/prior_art_survey.md §5.*
+*Substrate Thesis · Essay 4 of 7 · Theory backing: substrate-thesis-companion/theory/SRD_Definition_and_Examples.md (v2.1, expanded 2026-04-24). Six worked examples, eight anti-patterns with mitigations, formal structure-preserving-map-plus-domain-portability-test notation, four anti-case studies (failed SRD portability attempts and what they teach), SRD-at-different-scales meta-observation, practitioner-framework comparison (Forte BASB / Matuschak Evergreen / Allen GTD / Luhmann Zettelkasten / Helland immutability), and compliance metrics (proposed SRD Health Index with compound-recognition-value metric) all live there. Category 5 homeomorphism evidence (mempalace and adjacent) lives at substrate-thesis-companion/docs/prior_art_survey.md §5.*

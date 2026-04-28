@@ -1,5 +1,5 @@
 # When the Three Patterns Interact — A Case You Can Follow Start to Finish
-## Essay 5 of 7 — Substrate Thesis series · First draft 2026-04-24
+## Essay 5 of 7 — Substrate Thesis series
 
 ---
 
@@ -162,4 +162,4 @@ If the case study doesn't match the kind of cognitive infrastructure you build �
 
 ---
 
-*Substrate Thesis · Essay 5 of 7 · First draft 2026-04-24 · Light revision 2026-04-25 (added mempalace second-instance corroboration of three-pattern multiplicative interaction per Category 5 prior-art finding) · Subject to further revision before publication. Source case study: substrate-thesis-companion/case_studies/01_descriptive_insights_v1_to_v2.md. Companion case studies 02-07 in the same directory. Category 5 homeomorphism evidence (mempalace) at substrate-thesis-companion/docs/prior_art_survey.md §5.*
+*Substrate Thesis · Essay 5 of 7 · Source case study: substrate-thesis-companion/case_studies/01_descriptive_insights_v1_to_v2.md. Companion case studies 02-07 in the same directory. Category 5 homeomorphism evidence (mempalace) at substrate-thesis-companion/docs/prior_art_survey.md §5.*
