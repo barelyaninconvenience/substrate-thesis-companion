@@ -3,6 +3,12 @@
 # Private archive — explicitly NOT for public publication
 case_studies/Deprecated_Private/
 
+# Third-party source repos staged for prior-art research (license + bloat reasons; not author-original)
+Reference/
+
+# Private working notes (referenced from public docs only after OPSEC-strip)
+docs/need_singularity_prior_art_integration_*.md
+
 # OS
 .DS_Store
 Thumbs.db

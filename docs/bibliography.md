@@ -19,13 +19,14 @@
 - *Cited in:* `differentiation_vs_gloaguen_2602_11988_20260425.md` (full memo); `prior_art_survey.md` §2.5 Category 4 (line 385); `academic_paper_outline.md` §2.5 + §4 References
 - *Disambiguation:* Previously cited as "Liu et al." in this corpus; corrected 2026-04-25 via arXiv WebFetch verification
 
-[A2] P. M. Konrad, T. Adam, R. Terrenzi, and S. Ayvaz, "Agentic Much? Adoption of Coding Agents on GitHub," arXiv:2601.18341 [cs.SE], early 2026. [Online]. Available: https://arxiv.org/abs/2601.18341
-- *Cited in:* `differentiation_vs_konrad_2601_18341_20260425.md`; `prior_art_survey.md` §2.5 (line 387)
-- *Disambiguation:* Cite as **Konrad et al. (2026a)** to distinguish from same first-author's [A3]
+[A2] R. Robbes, T. Matricon, T. Degueule, A. Hora, and S. Zacchiroli, "Agentic Much? Adoption of Coding Agents on GitHub," arXiv:2601.18341 [cs.SE], Jan. 26 2026 (v2 Apr. 8 2026). [Online]. Available: https://arxiv.org/abs/2601.18341
+- *Cited in:* `differentiation_vs_konrad_2601_18341_20260425.md` (filename retained for git-history continuity, but title-author cross-reference must be updated to Robbes et al.); `prior_art_survey.md` §2.5 (line 387)
+- *Cite as:* **Robbes et al. (2026)**
+- *Audit catch 2026-04-30:* prior bibliography draft incorrectly attributed authorship to "P. M. Konrad et al." — that author list belongs to [A3], not [A2]. arXiv direct WebFetch confirmed the actual authors are Robbes / Matricon / Degueule / Hora / Zacchiroli. Differentiation memo filename retained for git-history; memo content + cross-references in `prior_art_survey.md` and `academic_paper_outline.md` must be updated to reflect the correct author attribution.
 
 [A3] P. M. Konrad, T. L. Adam, R. Terrenzi, and S. Ayvaz, "Architecture Without Architects: How AI Coding Agents Shape Software Architecture," arXiv:2604.04990 [cs.SE], Apr. 5 2026. [Online]. Available: https://arxiv.org/abs/2604.04990
 - *Cited in:* `differentiation_vs_konrad_arch_2604_04990_20260425.md`; `prior_art_survey.md` §2.5; `academic_paper_outline.md` §2.5
-- *Disambiguation:* Cite as **Konrad et al. (2026b)**. Position paper introducing "vibe architecting"
+- *Cite as:* **Konrad et al. (2026)**. Position paper introducing "vibe architecting." (Disambiguation handle "(2026b)" dropped 2026-04-30 after [A2] author-list correction; no longer same-first-author conflict.)
 
 [A4] M. Galster, S. Mohsenimofidi, J. L. Lulla, M. A. Abubakar, C. Treude, and S. Baltes, "Configuring Agentic AI Coding Tools: An Exploratory Study," arXiv:2602.14690 [cs.SE], Feb. 16 2026 (v3 Apr. 9 2026). [Online]. Available: https://arxiv.org/abs/2602.14690
 - *Cited in:* `differentiation_vs_galster_2602_14690_20260425.md`; `prior_art_survey.md` §2.5; `academic_paper_outline.md` §2.5
@@ -38,13 +39,15 @@
 - *Cited in:* `differentiation_vs_zhang_crab_2603_23448_20260425.md`; `prior_art_survey.md` §2.5
 - *Classification:* Tangential; peripheral §1 Introduction citation only
 
-[A7] X. He et al., "Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects," CMU MSR 2026; arXiv mirror 2511.04427. [Online]. Available: https://arxiv.org/abs/2511.04427 ; https://cmustrudel.github.io/papers/msr2026he.pdf
+[A7] H. He, C. Miller, S. Agarwal, C. Kästner, and B. Vasilescu, "Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects," in *Proc. 23rd Int. Conf. Mining Software Repositories (MSR '26)*, Rio de Janeiro, Brazil, Apr. 13-14 2026; arXiv mirror 2511.04427. [Online]. Available: https://arxiv.org/abs/2511.04427 ; https://cmustrudel.github.io/papers/msr2026he.pdf
 - *Cited in:* `differentiation_vs_he_msr2026_20260425.md`; `prior_art_survey.md` §2.5
 - *Critical:* Mediation finding empirically substantiates Substrate Thesis structural-pattern-violation-compounds claim
+- *Audit refinement 2026-04-30:* prior framing "CMU MSR 2026" implied CMU was the venue. MSR 2026 is Rio de Janeiro; the CMU connection is via the authors (Kästner, Vasilescu, et al. are at CMU's STRUDEL group, hence the cmustrudel.github.io paper-mirror URL). First-author full name verified as Hao He.
 
-[A8] J. Schreiber and N. Tippe, "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories," arXiv:2510.26103, Oct. 30 2025. [Online]. Available: https://arxiv.org/abs/2510.26103
+[A8] M. Schreiber and P. Tippe, "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories," arXiv:2510.26103, Oct. 30 2025. [Online]. Available: https://arxiv.org/abs/2510.26103
 - *Cited in:* `prior_art_survey.md` §2.5 (cited 3× — flagged for consolidation by audit)
 - *Classification:* ADJACENT (security topic, not operating-instructions convention)
+- *Audit catch 2026-04-30:* prior bibliography draft used incorrect first-name initials "J. Schreiber and N. Tippe"; arXiv direct WebFetch confirmed actual authors are Maximilian Schreiber and Pascal Tippe (M. and P. initials). Corrected.
 
 ### A.2 Personal informatics + HCI
 
@@ -115,14 +118,13 @@
 [B2] GitHub, "Accelerate developer productivity with these 9 open source AI and MCP projects," GitHub Blog, 2026. [Online]. Available: https://github.blog/open-source/accelerate-developer-productivity-with-these-9-open-source-ai-and-mcp-projects/
 - *Cited in:* `Tool_Integration_Plan_DSPy_Langfuse_StackAI_ElevenLabs_HeyGen_20260425.md`; this bibliography (informs §C MCP server roster)
 
-[B3] M. Danilchenko, "MemPalace Review: The AI Memory System That Broke GitHub in a Weekend," danilchenko.dev, Apr. 10 2026. [Online]. Available: https://www.danilchenko.dev/posts/2026-04-10-mempalace-review-ai-memory-system-milla-jovovich/
+[B3] M. Danilchenko, "MemPalace Review: The 100% Score Was Fake. 96.6% Is Real.," danilchenko.dev, Apr. 10 2026. [Online]. Available: https://www.danilchenko.dev/posts/2026-04-10-mempalace-review-ai-memory-system-milla-jovovich/ [URL verified live via WebFetch 2026-04-30]
 - *Cited in:* `Mempalace_NeedSingularity_CommunityContext_20260425.md` §3.4 (credibility audit) + §6; Essay 6 (`06_anti_patterns_first_draft.md` Documentation Drift section)
-- *Source provenance flag:* surfaced via Exa search 2026-04-25; URL not independently verified by direct WebFetch
-- *Audit note:* if URL unreachable, dependent claims (contradiction-detection absent from source; AAAK lossless overstatement; benchmark gaming acknowledgment) require re-verification
+- *Audit catch 2026-04-30:* prior bibliography draft listed title as "...That Broke GitHub in a Weekend" — that framing came from a paraphrase of the post's content, not the actual headline. WebFetch-verified title corrected. URL slug retains the original `milla-jovovich` reference (the MemPalace creator's GitHub handle). Substantive claims (contradiction-detection absent from source code; AAAK accuracy 84.2% vs 96.6% raw mode; benchmark-gaming acknowledgment) all confirmed in re-WebFetch.
 
-[B4] Väinämöinen / Pulsed Media, "Väinämöinen vs MemPalace vs claude-mem: A Source-Code-Level Comparison of AI Agent Memory Systems," dev.to, Apr. 15 2026. [Online]. Available: https://dev.to/vainamoinen/vainamoinen-vs-mempalace-vs-claude-mem-a-source-code-level-comparison-of-ai-agent-memory-systems-4bk4
+[B4] Väinämöinen / Pulsed Media, "Väinämöinen vs MemPalace vs claude-mem: A Source-Code-Level Comparison of AI Agent Memory Systems," dev.to, Apr. 15 2026. [Online]. Available: https://dev.to/vainamoinen/vainamoinen-vs-mempalace-vs-claude-mem-a-source-code-level-comparison-of-ai-agent-memory-systems-4bk4 [URL verified live via WebFetch 2026-04-30]
 - *Cited in:* `Mempalace_NeedSingularity_CommunityContext_20260425.md` §3.2 + §6
-- *Source provenance flag:* same as [B3] — Exa-derived, not directly verified
+- *Verified content:* compares the three systems across 18 dimensions; claims Väinämöinen wins 15/18; promotional tone for the author's own system; source-code-grounded critique of MemPalace's claimed-but-unimplemented features.
 
 [B5] OSSInsight, "Public API," 2026. [Online]. Available: https://api.ossinsight.io/
 - *Cited in:* This bibliography (used to validate trending/star data)
@@ -135,7 +137,8 @@
 ### C.1 Personal-AI-memory layer (Category 5 candidates)
 
 [C1] Milla Jovovich (handle), "MemPalace: Local-first AI memory," GitHub repository, 2026. [Online]. Available: https://github.com/MemPalace/mempalace
-- *Verified 2026-04-25:* **49.6k stars**, v3.3.3 (released Apr. 24 2026), MIT licensed, Python ~90 files
+- *Verified 2026-04-30:* **50.5k stars** / 6.6k forks / Python 91.7% / MIT / v3.3.3 (released Apr. 24 2026, "restore install integrity")
+- *Verification history:* 49.6k stars at 2026-04-25 audit; 50.5k stars at 2026-04-30 re-verification (+0.9k drift in 5 days, consistent with continued community growth)
 - *Cited in:* `prior_art_survey.md` §5.1; `Mempalace_NeedSingularity_CommunityContext_20260425.md`; Essays 02/03/04/05/06/07; `academic_paper_outline.md` §2.6 + §4.3 case study C; `Personal_Temporal_Journal_Hierarchy_20260425.md` (Category 5.6 ancestor)
 
 [C2] doobidoo, "MCP Memory Service: Persistent Shared Memory for AI Agent Pipelines," GitHub repository, 2026. [Online]. Available: https://github.com/doobidoo/mcp-memory-service
@@ -226,11 +229,12 @@ The following Miessler repos collectively form the strongest cross-practitioner 
 - *Verbatim philosophy:* "AI doesn't have a capabilities problem - it has an integration problem"
 - *Cited in:* `prior_art_survey.md` Category 6 §6.1; SCC empirical evidence
 
-[C17b] D. Miessler, "Personal AI Infrastructure (PAI): Agentic AI infrastructure for magnifying human capabilities," GitHub repository, 2025-present. [Online]. Available: https://github.com/danielmiessler/Personal_AI_Infrastructure [Accessed 2026-04-26]
-- *Repository scale:* 11,784 stars, 1,620 forks; latest release v4.0.3 (2026-03-02); 595+ commits
-- *Created:* 2025-09-08; *Last push:* 2026-04-12
+[C17b] D. Miessler, "Personal AI Infrastructure (PAI): Agentic AI infrastructure for magnifying human capabilities," GitHub repository, 2025-present. [Online]. Available: https://github.com/danielmiessler/Personal_AI_Infrastructure [Accessed 2026-04-30]
+- *Repository scale (2026-04-30 re-verify):* **11.9k stars, 1.6k forks**; **latest release v5.0.0 ("Life Operating System")** — major version bump from v4.0.3 since the 2026-04-25 audit; 45 integrated skills with 171 workflows; Algorithm v6.3.0 (seven-phase problem-solving loop); ISA (Ideal State Artifact) primitive; structural privacy via containment zones; Bun runtime for the Pulse daemon
+- *Created:* 2025-09-08; *Last activity:* Mar 2 2026 v4.0.3 patch + v5.0.0 release subsequent
 - *Architectural concept:* 16 numbered architectural Principles; 9 Core Primitives; 3-tier AI maturity model (Chatbots / Agentic Platforms / PAI); Skills system as SCC instance #2
 - *Notable principle:* #4 "Scaffolding > Model selection" (direct mapping to Substrate Thesis central architecture-over-content axiom)
+- *v5.0.0 framing implication:* "Life Operating System" naming connects directly to the Substrate Thesis personal-OS framing; bibliography entry at next prior_art_survey refresh should treat this version-bump as a strong convergence-evidence datapoint (cross-practitioner SCC plus operating-system-as-personal-substrate framing)
 - *Cited in:* `prior_art_survey.md` Category 6 §6.1 (primary load-bearing entry); 14-of-16 principles mapping table
 
 [C17c] D. Miessler, "TELOS: Deep Context framework for entities," GitHub repository, 2024-present. [Online]. Available: https://github.com/danielmiessler/Telos [Accessed 2026-04-26]
@@ -357,15 +361,23 @@ The following Miessler repos collectively form the strongest cross-practitioner 
 
 **Authored 2026-04-25** under an audit-style directive: prefer formal IEEE-style citation hygiene over implicit "trust the source" references throughout the corpus.
 
-**Bibliography-hygiene status:**
+**Bibliography-hygiene status (post 2026-04-30 audit pass):**
 - ✅ Gloaguen vs Liu disambiguation resolved (was [A1])
-- ✅ Konrad disambiguation strategy applied (2026a/2026b for [A2]/[A3])
-- ✅ Star counts verified for [C1]/[C2]/[C3]/[C4] via direct GitHub WebFetch 2026-04-25
+- ✅ ~~Konrad disambiguation strategy applied (2026a/2026b for [A2]/[A3])~~ → **superseded 2026-04-30**: [A2] "Agentic Much?" was incorrectly attributed to Konrad et al. in earlier draft; arXiv direct WebFetch confirmed actual authors are Robbes / Matricon / Degueule / Hora / Zacchiroli. [A2] handle is now "Robbes et al. (2026)"; [A3] handle simplified to "Konrad et al. (2026)" since same-first-author conflict no longer applies.
+- ✅ [A8] Schreiber & Tippe initials corrected 2026-04-30 from "J./N." to "M./P." (Maximilian Schreiber, Pascal Tippe per arXiv direct verification)
+- ✅ [A7] He et al. venue framing refined 2026-04-30: "CMU MSR 2026" → "MSR 2026, Rio de Janeiro" with note that authors are at CMU's STRUDEL group; first-author confirmed Hao He
+- ✅ [B3] Danilchenko + [B4] Väinämöinen URLs verified live via WebFetch 2026-04-30
+- ✅ [B3] title corrected 2026-04-30 from paraphrase ("...Broke GitHub in a Weekend") to actual headline ("MemPalace Review: The 100% Score Was Fake. 96.6% Is Real.")
+- ✅ [C1] MemPalace star count refreshed 2026-04-30: 49.6k → 50.5k (5-day drift)
+- ✅ [C17b] PAI version refreshed 2026-04-30: v4.0.3 → v5.0.0 ("Life Operating System") — major version bump worth dedicated cross-pollination treatment in `prior_art_survey.md` Category 6 §6.1
+- ✅ [C17] / [C17a] / [C17c] minor star+fork drifts captured 2026-04-30 (Substrate 800→803; Fabric 41.1k→41.2k; TELOS forks 205→206)
+- ⚠️ Star counts verified for [C1]/[C2]/[C3]/[C4]/[C17]/[C17a]/[C17b]/[C17c] via direct GitHub WebFetch (2026-04-25 + 2026-04-30 re-verify)
 - ⚠️ Schreiber & Tippe [A8] cited 3× in `prior_art_survey.md`; consolidation queued
 - ⚠️ [C5] n8n star count via secondary source only; direct verification queued
-- ⚠️ [C6] Claude Code star count via secondary source only
-- ⚠️ [B3] Danilchenko + [B4] Väinämöinen URLs from Exa search snippets; URL-liveness verification queued
+- ⚠️ [C17d] TheAlgorithm + [C17e] Ladder + [C17f] SecLists + [C17g] Newsletter star counts not re-verified 2026-04-30 (carrying forward 2026-04-26 dossier values)
 - ⚠️ [F1]/[F3] benchmarks cited indirectly; original papers should be located
+
+**Audit cycle takeaway 2026-04-30:** of 8 academic citations [A1-A8], 3 had truth-discipline violations (37.5%): [A2] entire author list wrong (cross-contamination from [A3]), [A8] author initials wrong, [B3] post title wrong (paraphrase substituted for actual headline). All three corrected. The pattern matches the Module 8/9/11 truth-discipline catches in IT 7021C work — confidently-stated specifics that were drafted without re-verification at authoring time. Going forward: every citation entry must reach this file with at-the-time WebFetch verification of authors, title, version/date, and URL liveness; prior_art_survey + academic_paper_outline cross-references must propagate corrections via mini-ENDEAVOR pass.
 
 **Cross-reference index status:** complete for all entries citing within the substrate-thesis-companion repository as of 2026-04-25. Future citations should add reverse-references back to this file.
 

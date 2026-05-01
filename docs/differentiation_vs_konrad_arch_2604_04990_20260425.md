@@ -1,9 +1,9 @@
 # Differentiation Analysis — Substrate Thesis vs. Konrad et al. arXiv 2604.04990
 ## "Architecture Without Architects: How AI Coding Agents Shape Software Architecture"
 
-**Status:** Authored 2026-04-25 from WebFetch extraction (free; no Exa burn). Companion to `differentiation_vs_konrad_2601_18341_20260425.md` (DIFFERENT Konrad et al. paper — same first-author Phongsakon Mark Konrad but separate empirical work). Companion to `prior_art_survey.md` Category 4 + `academic_paper_outline.md` §2 Related Work.
+**Status:** Authored 2026-04-25 from WebFetch extraction (free; no Exa burn). Companion to `differentiation_vs_konrad_2601_18341_20260425.md` (DIFFERENT paper). Companion to `prior_art_survey.md` Category 4 + `academic_paper_outline.md` §2 Related Work.
 
-**Disambiguation note:** Konrad et al. authored TWO 2026 papers relevant to the Substrate Thesis CHI submission. The earlier paper (arXiv 2601.18341, "Agentic Much?") is an empirical adoption study covered in `differentiation_vs_konrad_2601_18341_20260425.md`. THIS paper (arXiv 2604.04990) is a position paper with conceptual framework — distinct topic, distinct contribution, must be cited separately.
+**Disambiguation note (corrected 2026-04-30):** Earlier drafts of this corpus erroneously claimed Konrad et al. authored TWO 2026 papers. Direct arXiv WebFetch verification on 2026-04-30 confirmed otherwise: arXiv 2601.18341 ("Agentic Much?") is by **Robbes, Matricon, Degueule, Hora, Zacchiroli** — NOT Konrad et al. THIS paper (arXiv 2604.04990) is the only Konrad et al. paper in the corpus. The empirical adoption study has its own differentiation memo at `differentiation_vs_konrad_2601_18341_20260425.md` — filename retained for git-history continuity but content corrected to attribute to Robbes et al. The 2026a/2026b disambiguation handles are dropped; cite this paper simply as **Konrad et al. (2026)**.
 
 ---
 
@@ -30,7 +30,7 @@ This is a **position paper with illustrative empirical demonstration**, not a st
 
 - **Type:** position paper with conceptual framework
 - **Empirical component:** "illustrative demonstration" — same task across different prompts produces structurally different systems
-- **NOT empirical-at-scale:** no large-N study; they don't claim adoption-rate measurement (that's the OTHER Konrad et al. paper, 2601.18341)
+- **NOT empirical-at-scale:** no large-N study; they don't claim adoption-rate measurement (that's the Robbes et al. paper, arXiv 2601.18341 — see audit-corrected attribution above)
 
 ## Their gap (Substrate Thesis fills it)
 
@@ -49,16 +49,16 @@ Konrad et al. 2604.04990 is the **clearest available articulation of the failure
 - **CHI §3 Framework:** map Konrad et al.'s six coupling patterns onto FKS/SCC/SRD pattern interactions; show how each Konrad coupling pattern is an instance of one of the three Substrate Thesis patterns
 - **CHI Discussion:** argue that Konrad et al.'s governance prescription (review practices, decision records) is consistent with but undertheorized by their paper; the Substrate Thesis provides the missing theoretical scaffolding
 
-## Disambiguation strategy for citations
+## Citation handle (corrected 2026-04-30)
 
-To prevent reader confusion between the two Konrad et al. papers in the same CHI submission:
+There is no Konrad-vs-Konrad disambiguation problem in the actual corpus — that was a 2026-04-25-draft fabrication. arXiv 2604.04990 ("Architecture Without Architects") is by **Konrad, Adam, Terrenzi, Ayvaz**; arXiv 2601.18341 ("Agentic Much?") is by **Robbes, Matricon, Degueule, Hora, Zacchiroli** — different first authors entirely.
 
-- Cite as **Konrad et al. (2026a)** for arXiv 2601.18341 ("Agentic Much?") — the empirical adoption study
-- Cite as **Konrad et al. (2026b)** for arXiv 2604.04990 ("Architecture Without Architects") — this paper
+- Cite this paper simply as **Konrad et al. (2026)** in the CHI submission
+- Cite the adoption study as **Robbes et al. (2026)** — see `differentiation_vs_konrad_2601_18341_20260425.md` (filename retained; content audit-corrected)
 
-OR use first-author + topic disambiguation in inline references:
-- "Konrad et al.'s adoption study (2601.18341)..."
-- "Konrad et al.'s 'vibe architecting' framing (2604.04990)..."
+Inline references should use full author surnames where ambiguity could arise:
+- "Konrad et al.'s 'vibe architecting' framing (arXiv 2604.04990)..."
+- "Robbes et al.'s adoption study (arXiv 2601.18341)..."
 
 The bibliography entry must clearly distinguish them. Both Konrad-first-authored papers should appear in the same chronological sub-cluster of the bibliography with the (2026a) / (2026b) suffix.
 
@@ -78,4 +78,4 @@ This treatment is honest (they got there first on the descriptive concept), comp
 
 ---
 
-*Konrad et al. arXiv 2604.04990 differentiation memo authored 2026-04-25 from WebFetch extraction (zero Exa cost). Status: ready for CHI §2 Related Work integration; needs full-paper read for mechanism-list detail before final manuscript. Companion files: differentiation_vs_konrad_2601_18341 (DIFFERENT paper; disambiguation required) + prior_art_survey.md Category 4 + academic_paper_outline.md §2.*
+*Konrad et al. arXiv 2604.04990 differentiation memo authored 2026-04-25 from WebFetch extraction (zero Exa cost). Status: ready for CHI §2 Related Work integration; needs full-paper read for mechanism-list detail before final manuscript. Companion files: differentiation_vs_konrad_2601_18341 (DIFFERENT paper, by Robbes et al.; cross-contamination originally claimed Konrad authorship — corrected 2026-04-30) + prior_art_survey.md Category 4 + academic_paper_outline.md §2.*

@@ -57,7 +57,7 @@ Galster et al. is the **highest-leverage existing empirical work for the Substra
 - Their Skills/Subagents shallow-adoption finding is consistent with the Substrate Thesis prediction that advanced patterns require deliberate framework discipline beyond what default adoption produces
 
 **Citation strategy:**
-- Case Study 07 §3 Prevalence: Galster et al. as primary empirical citation alongside Gloaguen et al. 2602.11988 and Konrad et al. 2601.18341
+- Case Study 07 §3 Prevalence: Galster et al. as primary empirical citation alongside Gloaguen et al. 2602.11988 and Robbes et al. 2601.18341
 - CHI §2 Related Work: Galster et al. is the most directly comparable empirical work; honest framing is "they describe the mechanism landscape, we provide the structural framework"
 - CHI §3 Framework: explicitly map their eight mechanisms onto FKS/SCC/SRD pattern instances (mapping table below)
 
@@ -90,7 +90,7 @@ Approximately 250-350 words. Suggested paragraph:
 
 ## Recommended treatment in Case Study 07 §3 Prevalence
 
-Galster et al. should appear alongside Liu et al. (2602.11988) and Konrad et al. (2601.18341) as the empirical-prevalence-citation triad. Their N=2,923 anchors the medium-scale evidence (between Gloaguen's >60,000 and the qualitative case studies). Their AGENTS.md interoperability finding directly supports the Case Study 07 claim that the convention is converging on a cross-practitioner standard (cross-practitioner SRD).
+Galster et al. should appear alongside Liu et al. (2602.11988) and Robbes et al. (2601.18341) as the empirical-prevalence-citation triad. Their N=2,923 anchors the medium-scale evidence (between Gloaguen's >60,000 and the qualitative case studies). Their AGENTS.md interoperability finding directly supports the Case Study 07 claim that the convention is converging on a cross-practitioner standard (cross-practitioner SRD).
 
 ## Open questions for full-paper read (when CHI submission prep advances)
 

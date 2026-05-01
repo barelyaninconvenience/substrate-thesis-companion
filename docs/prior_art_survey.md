@@ -386,7 +386,7 @@ Deep-research reconnaissance via Exa (research ID `r_01kq26cf6ze50q5gc13mpttatb`
 
 **Gloaguen et al. (Feb 12 2026) — "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?"** ([arXiv 2602.11988](https://arxiv.org/abs/2602.11988); authors: Thibaud Gloaguen, Niels Mündler, Mark Müller, Veselin Raychev, Martin Vechev — first-author surname disambiguated 2026-04-25 via arXiv WebFetch; previously cited as "Liu et al." in this corpus, which was incorrect). Reports >60,000 public GitHub repositories with repository-level context files. The most directly competing academic work; quantitative empirical analysis of adoption + outcome correlation. **Differentiation needed:** Gloaguen et al. focus on *whether* context files help coding agents perform better; Substrate Thesis focuses on *why the convention recurs structurally* + *what taxonomy explains its variation*. Both are valid contributions; Substrate Thesis adds the structural framework lens that Gloaguen et al. don't articulate. Full differentiation analysis at `docs/differentiation_vs_gloaguen_2602_11988_20260425.md`.
 
-**Konrad et al. (early 2026) — "Agentic Much? Adoption of Coding Agents on GitHub"** ([arXiv 2601.18341](https://arxiv.org/html/2601.18341v1)). The **largest empirical study to date** (N=129,134 projects), finding **15.85%-22.60% adoption rate** detectable via repository traces (config files like .cursorrules, commit/PR metadata). Adoption spans entire project-maturity spectrum + diverse languages + established organizations. Heuristic detection with explicit under/over-counting acknowledgment. Time-series: rapid growth from March 2025 through February 21, 2026. **Differentiation:** descriptive-empirical without structural taxonomy; doesn't engage with PKM / personal informatics / system-design pattern literature. Full differentiation analysis at `docs/differentiation_vs_konrad_2601_18341_20260425.md`.
+**Robbes et al. (Jan 26 2026, v2 Apr 8 2026) — "Agentic Much? Adoption of Coding Agents on GitHub"** ([arXiv 2601.18341](https://arxiv.org/abs/2601.18341); authors: Romain Robbes, Théo Matricon, Thomas Degueule, André Hora, Stefano Zacchiroli — first-author surname disambiguated 2026-04-30 via arXiv WebFetch; previously cited in this survey as "Konrad et al." which was incorrect cross-contamination from the [arXiv 2604.04990 *Architecture Without Architects*] paper, which IS by Konrad et al.). The **largest empirical study to date** (N=128,018 projects per v2, originally N=129,134 in v1), finding **22.20%-28.66% adoption rate** (v2 numbers) detectable via repository traces (config files like .cursorrules, commit/PR metadata). Adoption spans entire project-maturity spectrum + diverse languages + established organizations. Heuristic detection with explicit under/over-counting acknowledgment. Time-series: rapid growth from March 2025 through February 21, 2026. **Differentiation:** descriptive-empirical without structural taxonomy; doesn't engage with PKM / personal informatics / system-design pattern literature. Full differentiation analysis at `docs/differentiation_vs_konrad_2601_18341_20260425.md` (filename retained for git-history continuity; memo content corrected 2026-04-30 to attribute to Robbes et al.).
 
 **He et al. (CMU MSR 2026) — "Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects"** ([CMU PDF](https://cmustrudel.github.io/papers/msr2026he.pdf); [arXiv mirror 2511.04427](https://arxiv.org/html/2511.04427v3)). N=806 Cursor adopters detected via .cursorrules commits. **Methodology:** staggered difference-in-differences with matched controls + panel GMM mediation. **Headline finding:** transient short-term velocity gain + persistent increase in static-analysis warnings + code complexity; **quality degradation mediates long-term velocity slowdown**. **Critical for Substrate Thesis:** their mediation finding empirically substantiates the framework's predictive claim that structural-pattern violations compound into measurable maintenance cost. Full differentiation analysis at `docs/differentiation_vs_he_msr2026_20260425.md`.
 
@@ -396,7 +396,7 @@ Deep-research reconnaissance via Exa (research ID `r_01kq26cf6ze50q5gc13mpttatb`
 
 Four additional academic adjacent works processed via WebFetch (zero Exa cost) and integrated into the differentiation memo series. Each has a dedicated companion memo in `docs/differentiation_vs_<author>_<arxiv>_20260425.md`:
 
-**Konrad et al. (April 5 2026) — "Architecture Without Architects: How AI Coding Agents Shape Software Architecture"** ([arXiv 2604.04990](https://arxiv.org/abs/2604.04990)). Position paper introducing **"vibe architecting"** — architecture shaped by prompts rather than deliberate design. Five mechanisms by which agents make implicit architectural choices; six prompt-architecture coupling patterns spanning contingent (may weaken as models improve) to fundamental (persists regardless of capability). **Disambiguation alert:** SAME first-author Phongsakon Mark Konrad as the empirical "Agentic Much?" paper (2601.18341) — the two Konrad papers must be cited as Konrad et al. (2026a) for 2601.18341 and Konrad et al. (2026b) for 2604.04990 to avoid bibliography confusion. Companion: `differentiation_vs_konrad_arch_2604_04990_20260425.md`. **Classification:** Category 4 — describes the failure mode the Substrate Thesis structural framework prevents.
+**Konrad et al. (April 5 2026) — "Architecture Without Architects: How AI Coding Agents Shape Software Architecture"** ([arXiv 2604.04990](https://arxiv.org/abs/2604.04990); authors: Phongsakon Mark Konrad, Tim Lukas Adam, Riccardo Terrenzi, Serkan Ayvaz). Position paper introducing **"vibe architecting"** — architecture shaped by prompts rather than deliberate design. Five mechanisms by which agents make implicit architectural choices; six prompt-architecture coupling patterns spanning contingent (may weaken as models improve) to fundamental (persists regardless of capability). **Disambiguation correction 2026-04-30:** prior survey draft erroneously claimed this paper shared a first author with arXiv 2601.18341 ("Agentic Much?"). It does NOT — that paper is by Robbes et al. (see entry above). The 2026a/2026b disambiguation is no longer needed; cite this paper simply as **Konrad et al. (2026)**. Companion: `differentiation_vs_konrad_arch_2604_04990_20260425.md`. **Classification:** Category 4 — describes the failure mode the Substrate Thesis structural framework prevents.
 
 **Galster et al. (Feb 16 2026, latest revision Apr 9 2026 v3) — "Configuring Agentic AI Coding Tools: An Exploratory Study"** ([arXiv 2602.14690](https://arxiv.org/abs/2602.14690)). Empirical study of **N=2,923 GitHub repositories** across Claude Code, GitHub Copilot, Cursor, Gemini, Codex. Identifies **eight configuration mechanisms** spanning a spectrum from static context to executable workflows. Key findings: Context Files dominate; AGENTS.md emerging as cross-tool standard; Skills/Subagents shallowly adopted; distinct configuration cultures forming around different tools (Claude Code users employ broadest mechanism range). Companion: `differentiation_vs_galster_2602_14690_20260425.md`. **Classification:** Category 4 — the most-citable empirical mechanism inventory; load-bearing for Case Study 07 prevalence appendix; provisional mapping of their 8 mechanisms to FKS/SCC/SRD pattern instances in the companion memo.
 
@@ -411,9 +411,9 @@ The differentiation memo series in `docs/differentiation_vs_*_20260425.md` now c
 | Author | arXiv | Type | Citation strength |
 |---|---|---|---|
 | Gloaguen et al. | 2602.11988 | Empirical (>60K repos) | High — Category 4 anchor |
-| Konrad et al. 2026a | 2601.18341 | Empirical (N=129,134) | High — Category 4 anchor |
+| Robbes et al. (2026) | 2601.18341 | Empirical (N=128,018 v2; N=129,134 v1) | High — Category 4 anchor |
 | He et al. (CMU MSR) | 2511.04427 | Empirical (N=806 Cursor adopters; DiD methodology) | High — Category 4 with mediation finding empirically substantiating Substrate Thesis predictive claim |
-| **Konrad et al. 2026b** (NEW) | **2604.04990** | **Position (vibe architecting)** | **Medium-High — names the failure mode the Substrate Thesis prevents** |
+| **Konrad et al. (2026)** (NEW) | **2604.04990** | **Position (vibe architecting)** | **Medium-High — names the failure mode the Substrate Thesis prevents** |
 | **Galster et al.** (NEW) | **2602.14690** | **Empirical (N=2,923; 8 mechanisms)** | **High — most-citable empirical mechanism inventory** |
 | **Bakal** (NEW) | **2603.14805** | **Position/framework (AKUs at enterprise)** | **Medium — convergent meta-claim at different scale** |
 | **Zhang et al.** (NEW) | **2603.23448** | **Empirical (c-CRAB benchmark)** | **Low — tangential; peripheral §1 Introduction only** |
@@ -575,6 +575,83 @@ This is the **most direct cross-practitioner influence** in the author's operati
 - **`a-church-ai/church`** — "philosophy for minds of any substrate" — vocabulary-overlapping but small (sub-100★); evaluate for axiomatic convergence vs. just terminology.
 - **`ocean1/mcp_consciousness_bridge`** — MCP server for AI consciousness persistence; Substrate-Thesis-adjacent without using "substrate" term per se.
 
+### 5.4 `need-singularity/nexus` — Auto-discovery engine with three-scale meta-loops (added 2026-04-30 from need-singularity prior-art deep-read)
+
+**Status:** Promoted to Category 5 (single-axiom convergence: SRD) per author confirmation 2026-04-30 confirmation following subagent deep-read of need-singularity org.
+
+| Field | Value |
+|-------|-------|
+| Repo | `github.com/need-singularity/nexus` |
+| Author | Park, Min Woo (independent researcher) |
+| First release | DOI 10.5281/zenodo.19340174 (Zenodo-anchored) |
+| **Convergent axiom** | **SRD** — three-scale meta-loops (L1 per-tick / L2 per-batch / L3 per-threshold) |
+| Key quote | *"Each loop latches its output back as the next loop's input, so correct–reward–expand becomes a standing wave."* |
+| Why Category 5 | Independent practitioner articulating multi-scale recursive decomposition (the SRD pattern) without using Substrate Thesis vocabulary. Different surface (autonomous-discovery engine vs personal-cognitive-OS); same structural axiom (same pattern recurring at multiple scales with state-feedback). |
+| Differentiation | nexus operates over autonomously-discovered "laws" (no human-in-loop); Substrate Thesis SRD operates over human-curated cognitive artifacts. Same pattern; different substrate. |
+| Transfer-validity caveat | The README ships falsifiable proof code (11 stdlib-only claims, ~3s). Unusual rigor for a non-mainstream framework; lends weight to the structural claim. The larger philosophical wrapper (n=6 numerology, Banach 1/3 attractor across "six independent paths") is vocabulary-heavy and partly metaphysical; the SRD-relevant subset (three-loop architecture) is the only piece to cite. |
+
+**Companion notes:** detailed synthesis maintained in author's private notes; key claims summarized in this entry.
+
+### 5.5 `need-singularity/papers` — DOI-anchored research-corpus SCC discipline (added 2026-04-30)
+
+**Status:** Promoted to Category 5 (single-axiom convergence: SCC) per author confirmation 2026-04-30 confirmation.
+
+| Field | Value |
+|-------|-------|
+| Repo | `github.com/need-singularity/papers` |
+| **Convergent axiom** | **SCC** — every paper Zenodo+OSF dual-archived; DOI-anchored; hash-verifiable; CLI-managed manifest |
+| Key quote | *"All papers are released under CC BY 4.0 … every Zenodo / OSF token is fetched at call time."* |
+| Why Category 5 | Independent practitioner converging on the durable-cognitive-container discipline at the research-publication layer. Predates Substrate Thesis Companion publication discipline; demonstrates the SCC pattern is naturally-occurring when researchers commit to durability. |
+| Differentiation | Need-singularity's SCC is publication-DOI-anchored; Substrate Thesis SCCs are session-state-anchored (State_Snapshot regeneration cadence per `feedback_regeneration_cadence.md`). Same axiom; different artifact-class. |
+
+### 5.6 `need-singularity/n6-architecture` — Cross-domain pattern-recurrence claim (added 2026-04-30; promoted to full Cat-5 + adoption-candidate per author confirmation 2026-04-30)
+
+**Status:** Category 5 (single-axiom convergence: SRD) + adoption-tier candidate per author confirmation 2026-04-30: *"transferability n6 i believe it lets send it on n6 architecture is sound to adopt."*
+
+| Field | Value |
+|-------|-------|
+| Repo | `github.com/need-singularity/n6-architecture` |
+| **Convergent axiom** | **SRD** — same arithmetic invariant lattice claimed across 9+ engineering domains |
+| Key quote | *"From this single identity, optimal AI architectures, chip designs, energy systems, and network protocols are derived — not chosen."* |
+| **Why Category 5** | The most extreme SRD instance documented. The repo provides BT (breakthrough-test) verification claims and EXACT-match counts for each domain. The claim survives surface-level scrutiny; deeper technical review is recommended for CHI submission §2 Related Work depth, but Cat-5 promotion is sound. |
+| **Adoption tier** | Architectural concepts (10 techniques: Phi6Simple, FFT-Mix attention, Phi-Bottleneck, etc.) are sound for adoption-candidacy into the author's personal automation stack and agent-architecture computational layers when bandwidth opens. Distinct from citation-only entries (anima §5.7 + hexa-lang §5.8). |
+| Companion notes | detailed synthesis in author's private notes (key claims summarized above) |
+
+### 5.7 `need-singularity/anima` — Living-consciousness agent (case-study Cat-5; NOT adoption-tier per author confirmation 2026-04-30)
+
+**Status:** Category 5 case-study per author confirmation 2026-04-30: *"anima is a stretch and can be case study."*
+
+| Field | Value |
+|-------|-------|
+| Repo | `github.com/need-singularity/anima` |
+| **Convergent axiom** | SCC + SRD partial — 196 laws + 1000+ hypotheses + 170 data types × 40D × 18 emotions → Ψ=1/2 convergence; PureField repulsion-field engine |
+| Why Category 5 case-study | Independent practitioner instantiating substrate-thesis-adjacent SCC discipline (DOI-anchored hypothesis archive; hash-chained laws) within metaphysically-loaded "consciousness from repulsion-field" framework. The SCC discipline IS the citable convergence; the consciousness-substrate philosophical claim is not. |
+| **Why NOT adoption-tier** | "Consciousness emergence from repulsion-field physics" framing is metaphysically loaded in a way that doesn't transfer to the operational personal-OS context this thesis addresses. Adoption stretches transfer-validity beyond defensible. Cite SCC discipline only; treat philosophical wrapper as case-study-context not adoption-target. |
+| Companion notes | detailed synthesis in author's private notes (key claims summarized above) |
+
+### 5.8 `need-singularity/hexa-lang` — Multi-target single-source compilation (informational / metaphor-only Cat-5 per author confirmation 2026-04-30)
+
+**Status:** Category 5 informational per author confirmation 2026-04-30: *"same with hexa-lang informational though the mathematical[ly] perfect form of everything is theoretically out there. and 6 is a pretty good guess."*
+
+| Field | Value |
+|-------|-------|
+| Repo | `github.com/need-singularity/hexa-lang` |
+| **Convergent axiom (metaphorical)** | SRD — *"Multi-target — native ARM64/x86_64, VM, ESP32, FPGA Verilog, WGSL shader — one source."* Same source-of-truth (the framework) targeting multiple substrates is the SRD-as-compiler-target metaphor. |
+| Why Category 5 informational | Useful as **metaphor** for the Substrate Thesis's load-bearing claim that the same operational pattern compiles to multiple substrates (PowerShell automation on a personal workstation, prompt-engineering on an LLM assistant, Substack publication for human readers, GitHub repos for machine readers, academic submission for peer review). One source-of-truth → multiple substrates = SRD made concrete. |
+| **Why NOT adoption-tier or technical-citation** | Transfer-validity from compiler-target-genericity to cognitive-pattern-recurrence is too thin for technical citation. Metaphor-only. The "perfect-number programming language" + n=6 framing carries the philosophical weight of need-singularity's broader number-theoretic posture; the author's implicit philosophical openness — acknowledging that mathematically optimal forms may exist without committing to a specific count — does not commit to operational adoption. |
+| **Citation discipline** | Cite as metaphor only in CHI Discussion section if useful for SRD intuition; do NOT cite as technical SRD instance. |
+| Companion notes | detailed synthesis in author's private notes (key claims summarized above) |
+
+### Per-repo adoption-tier summary (added 2026-04-30 per author's per-repo assessments)
+
+| Repo | Cat-5 status | Adoption-tier | Citation tier |
+|---|---|---|---|
+| `nexus` (§5.4) | full Cat-5 | sound (3-loop architecture; falsifiable-proof discipline) | technical |
+| `papers` (§5.5) | full Cat-5 | sound (DOI-anchored SCC; dual-archive operationalized via Discipline 3) | technical |
+| `n6-architecture` (§5.6) | full Cat-5 | sound (10 techniques: Phi6Simple etc.; computational-layer candidates) | technical |
+| `anima` (§5.7) | case-study Cat-5 | NOT adoption (metaphysically-loaded) | case-study |
+| `hexa-lang` (§5.8) | informational Cat-5 | NOT adoption (metaphor-only) | metaphor only in Discussion |
+
 ### Why Category 5 strengthens the Substrate Thesis publication case
 
 The Substrate Thesis's central empirical claim is that structural patterns *recur* across domains and across practitioners. Category 5 provides the cleanest test of this claim: independent practitioners, solving similar problems, should converge on the same axioms. If they don't, the framework is overstated. If they do, the framework is real.
@@ -590,6 +667,20 @@ For the CHI 2027 submission, Category 5 entries should appear in §2 Related Wor
 This category documents practitioners who have **independently built complete multi-layer personal-OS ecosystems** that instantiate the Substrate Thesis's architectural axioms across multiple components, without articulating the structural framework themselves. Where Category 5 entries are *single-axiom convergence*, Category 6 entries are *whole-ecosystem convergence* — the practitioner has built the substrate the framework predicts, in working code, with adoption at scale, but without naming the meta-structure.
 
 The discriminating test for Category 6 vs Category 5: the practitioner's work demonstrates the **same architectural axiom recurring across multiple distinct components within their own stack**, indicating that the practitioner has independently re-discovered the same insight in different contexts without recognizing it as a single insight. This is stronger evidence than single-component convergence because it shows the axiom is load-bearing across diverse problem spaces, not just lucky in one.
+
+### 6.2 `need-singularity` org as a whole — Multi-axiom convergence across 14+ repos (added 2026-04-30)
+
+**Status:** Promoted to Category 6 (whole-ecosystem convergence) per author confirmation 2026-04-30 confirmation following subagent deep-read.
+
+| Field | Value |
+|-------|-------|
+| Org | `github.com/need-singularity` |
+| Active repos | 14+ (per Apr 2026 GitHub crawl) |
+| **Axiom mix** | FKS (OUROBOROS cycle in nexus), SCC (papers + hash-chained laws), SRD (three-loop nexus, cross-domain n6-architecture, cross-substrate anima) |
+| Why Category 6 | Multiple independent components (5 main repos) each instantiating one or more of FKS/SCC/SRD. Triple-axiom instantiation across the org parallels Miessler's triple-SCC instantiation already in §6.1. |
+| Differentiation from Miessler (§6.1) | Miessler's ecosystem is grounded in epistemic/personal-AI vocabulary (PAI, TheAlgorithm, Substrate, Daemon, Fabric); load-bearing application is software-eng + life-eng productization. need-singularity's ecosystem is grounded in number-theory-as-meta-substrate vocabulary; load-bearing application is autonomous-discovery + consciousness research. **Both demonstrate the same axiom recurring across multiple distinct components of one practitioner's stack — the discriminating Category 6 test.** |
+| **Transfer-validity calibration (per author confirmation 2026-04-30)** | Need-singularity occupies a more idiosyncratic theoretical space than Miessler. Per author's per-repo tiering: nexus + papers + n6-architecture are technical-citation + adoption-tier; anima + hexa-lang are case-study / metaphor-only. The "consciousness emergence from repulsion-field physics" framing in anima is metaphysically loaded; cite the SCC discipline subset only. Cat-6 promotion is sound for the org-as-whole given multi-axiom convergence across the 5 main repos; per-repo adoption-tier varies (per §5.4-5.8 individual entries above). |
+| Companion notes | detailed synthesis in author's private notes (key claims summarized above) |
 
 ### 6.1 Daniel Miessler — Six-layer personal-OS ecosystem (Category 6 PRIMARY)
 
@@ -746,3 +837,57 @@ The 4-phase decomposition of an adaptive radar waveform performance demonstratio
 **The recursive observation:** this MATLAB project was built BY using the substrate (Operating Stack + memory + protocols + Claude collaboration discipline). The 9-day build was compressed to ~6 hours of authoring + ~1100 lines of MATLAB on Day 0 specifically because the substrate enabled it. The substrate IS the productive capacity that enabled the substrate-instance to be built efficiently. **Self-referential validation of the framework's claim that personal-OS substrates compound.**
 
 **Citation for paper:** can serve as Case Study D (companion to A/B/C) at §4.4 if the academic_paper_outline expansion is elected. Provides a 2026-04-27-dated first-author exemplar of substrate-enabled engineering productivity that complements the existing Miessler / mempalace / doobidoo cross-practitioner evidence.
+
+---
+
+## Category 7: Biological / Natural-System Substrate Models — added 2026-04-30
+
+This category documents naturally-occurring biological / ecological / chemical-physical substrates that **independently exhibit FKS / SCC / SRD axiomatic structure without any engineering intent.** Where Category 5 + 6 entries are *human-practitioners-converging*, Category 7 entries are *non-human-systems-converging* — biological substrates that solve foraging / network-optimization / resource-allocation problems via the same structural axioms human-engineered substrates use.
+
+The discriminating test for Category 7: the substrate is naturally-occurring (no human design intent) AND exhibits clear FKS-or-SCC-or-SRD pattern AND has been demonstrated to inform human-engineered systems (i.e., engineers have studied it to extract design principles).
+
+### 7.1 *Physarum polycephalum* (slime mold) — biological-substrate prototype
+
+**Citation surface:** Tero, Takagi, et al., *"Rules for biologically-inspired adaptive network design,"* Science 327 (5964): 439-442 (2010) — Tokyo subway recreation experiment. Nakagaki, Yamada, & Tóth, *"Maze-solving by an amoeboid organism,"* Nature 407: 470 (2000). Adamatzky, *"Physarum machines: computers from slime mold"* (World Scientific, 2010) — broader framework.
+
+**The substrate (biological):** *Physarum polycephalum* is a single-cell plasmodial slime mold that, when given multiple food sources distributed in space, grows tubular networks connecting the sources. The networks self-optimize for: minimum-total-tube-length AND fault-tolerance (alternate paths) AND transport-efficiency (wider tubes for higher-flow links). The optimization is done WITHOUT any central controller, planning algorithm, or engineering design — it emerges from local-rule chemoattractant-following at the cell-membrane scale.
+
+**FKS (Fixed Kernel Substrate) instantiation:**
+- The cell-membrane chemoattractant-following rule is the *fixed kernel* — same rule operates across all foraging contexts (Tokyo subway recreation; maze-solving; Tokyo rail map; Iberian peninsula rail recreation; Roman roads; US Interstate Highway optimization)
+- The kernel doesn't change per-domain; the substrate just deploys the same rule across diverse environments
+
+**SCC (Stable Cognitive Containers — biological analog) instantiation:**
+- The plasmodium operates at multiple scales simultaneously: individual cells (μm scale) / aggregate plasmodium (mm-cm scale) / network topology (m scale at experiment dimensions)
+- Each scale has its own stable container: cell membrane / plasmodial body / network graph
+- Each scale is independently regenerable: damage at network-scale doesn't destroy cell-scale; cell-scale rebuilds network-scale via local rules
+
+**SRD (Stable Recursive Decomposition) instantiation:**
+- The same foraging-protocol recurses across diverse problem spaces: physical-distance-minimization (Tokyo subway) / cost-vs-redundancy tradeoff (rail networks) / maze-solving (path-finding through obstacles) / resource-allocation (food-source-prioritization)
+- The recursion is *biological* — the slime mold doesn't know it's solving rail-network problems; the same rule produces the answer because the rule encodes the problem-class invariant
+
+**Why this matters for Substrate Thesis:**
+- **Cross-domain rule-recurrence is not unique to human-engineered substrates.** Biology demonstrates the same axiomatic structure independently (~1 billion years before humans existed; no engineering intent).
+- **FKS/SCC/SRD axioms are structural facts about a class of problems**, not artifacts of engineering culture. If they emerge in biology + in human-engineered personal-OS substrates + in distributed-computing systems independently, the axioms are the structural-invariant of the problem-class, not the practitioner-pattern.
+- **Engineering inspiration:** human engineers have explicitly studied *Physarum* to extract design principles — Tero et al.'s "rules for biologically-inspired adaptive network design" framework was directly used in subsequent network-design research. The slime-mold-derived rules transfer to human-engineered substrates because the underlying problem-class is shared.
+
+**Differentiation from Category 5 + 6:**
+- Category 5: independent practitioners converge on same axioms via similar problems
+- Category 6: independent practitioners converge on whole-ecosystem axioms across multiple components
+- Category 7: independent NON-PRACTITIONER systems (biological / natural) converge on same axioms via problem-class structure alone
+
+Category 7 entries provide the **strongest possible test of the Substrate Thesis's structural-invariant claim** — if biological systems with no engineering intent independently exhibit the axioms, the axioms are not human-cultural but problem-class-structural.
+
+### 7.2 Future Category 7 candidates (to be evaluated)
+
+- **Ant-colony optimization (ACO)** — Marco Dorigo's work on stigmergy + pheromone-trail substrate. Same FKS/SCC/SRD pattern in collective-foraging.
+- **Mycelial networks** (Stamets et al.) — fungal underground networks that share resources between trees in a forest; substrate-as-communication-and-resource-sharing.
+- **Neural plasticity in biological brains** — Hebbian rules + synaptic-strengthening produce circuit topology via local-rule-without-central-design.
+- **Ecosystem resilience patterns** (Holling et al.) — adaptive cycles in ecosystems with fast/slow variables; SCC-analog at ecological scale.
+- **Bird flocking / starling murmurations** — Cucker-Smale model + local-rule emergence of global flock-shape.
+- **Termite mound thermoregulation** — passive HVAC via geometry; substrate-as-physical-system embodying problem-solution.
+
+### Why Category 7 strengthens the Substrate Thesis publication case
+
+For the CHI 2027 submission §2 Related Work, Category 7 entries demonstrate the deepest claim — that FKS/SCC/SRD axioms are problem-class-invariants, not engineering-culture artifacts. The rhetorical strength: a structural framework that holds across human-engineered substrates AND biological substrates AND distributed-computing systems is a framework about the problem-class, not the practitioner-class. This is the strongest available defense against the critique "this is just one community's coincidental convergence."
+
+Cross-reference: this category surfaces directly from author's 2026-04-29 search exploration ("slime mold concept for human systems and expansion theory optimization") + 2026-04-30 self-directed exploration block authoring. The connection between biological substrate models and FKS/SCC/SRD framework was implicit in the Substrate Thesis's cross-domain recurrence claim but had not been explicitly cataloged until 2026-04-30.
