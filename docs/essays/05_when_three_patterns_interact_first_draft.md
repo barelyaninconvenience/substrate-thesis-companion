@@ -1,5 +1,5 @@
 # When the Three Patterns Interact — A Case You Can Follow Start to Finish
-## Essay 5 of 7 — Substrate Thesis series
+## Essay 5 of 8 — Substrate Thesis series
 
 ---
 
@@ -162,4 +162,4 @@ If the case study doesn't match the kind of cognitive infrastructure you build �
 
 ---
 
-*Substrate Thesis · Essay 5 of 7 · Source case study: substrate-thesis-companion/case_studies/01_descriptive_insights_v1_to_v2.md. Companion case studies 02-07 in the same directory. Category 5 homeomorphism evidence (mempalace) at substrate-thesis-companion/docs/prior_art_survey.md §5.*
+*Substrate Thesis · Essay 5 of 8 · Source case study: substrate-thesis-companion/case_studies/01_descriptive_insights_v1_to_v2.md. Companion case studies 02-07 in the same directory. Category 5 homeomorphism evidence (mempalace) at substrate-thesis-companion/docs/prior_art_survey.md §5.*

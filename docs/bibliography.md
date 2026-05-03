@@ -108,6 +108,49 @@
 [A24] W. Liang et al., "Mapping the increasing use of LLMs in scientific papers," Working paper, 2024.
 - *Cited in:* `academic_paper_outline.md` §2.4 + §4
 
+### A.7 Personal AI memory + cognitive-architecture convergence anchors (Cat-5 academic-paper cluster — added 2026-05-01)
+
+Verified through WebFetch verification cycle 2026-05-01 against Exa literature haul. Full audit at `Writings/Exa_Literature_Haul_Verification_20260501.md`. Citation discipline per `memory/feedback_exa_result_tier_verification.md`.
+
+[A25] M. Roynard, "The Missing Knowledge Layer in Cognitive Architectures for AI Agents," arXiv:2604.11364, Apr. 13 2026. [Online]. Available: https://arxiv.org/abs/2604.11364
+- *Affiliation:* LAAS-OASIS
+- *Cited in:* `prior_art_survey.md` §5.10.1 Cat-5 cluster; `academic_paper_outline.md` §2.6
+- *Substrate-relevance:* **Strongest external academic anchor for the Substrate Thesis convergent-design claim.** Four-layer decomposition (Knowledge / Memory / Wisdom / Intelligence) with "fundamentally different persistence semantics" instantiates SCC axiom directly. "Eight convergence points" framing is independent identification of the convergence pattern this paper's framework names. Cites Karpathy's LLM Knowledge Base + BEAM benchmark + Tulving's trichotomy.
+
+[A26] S. S. Tanguturi, "The Continuity Layer: Why Intelligence Needs an Architecture for What It Carries Forward," arXiv:2604.17273, 2026. [Online]. Available: https://arxiv.org/abs/2604.17273
+- *Cited in:* `prior_art_survey.md` §5.10.2 Cat-5 case-study (NOT-adoption tier)
+- *Substrate-relevance:* Cat-5 case-study. Continuity Layer + DTCM (Decomposed Trace Convergence Memory) storage primitive + four-layer development arc (SDK → hardware node → long-horizon human infrastructure) all verified. **Citation caveat:** kenosis/Alpha-Omega theological mapping framing makes this NOT-adoption tier; cite four-layer arc + DTCM selectively, avoid theological framing in cited material.
+
+[A27] Z. Li, "Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens" (Animesis), arXiv:2603.04740, Mar. 5 2026. [Online]. Available: https://arxiv.org/abs/2603.04740
+- *Cited in:* `prior_art_survey.md` §5.10.3 Cat-5
+- *Substrate-relevance:* Three-axiom shape (Identity Persistence + Governance Prioritization + Identity Continuity) directly mirrors FKS+SCC+SRD triple structure. Constitutional Memory Architecture as four-layer governance hierarchy + multi-layer semantic storage. "no prior AI memory system architecture places governance before functionality" parallels Substrate Thesis's structural-precedes-content stance.
+
+[A28] G. Servedio, P. Aghilar, A. Mattiace, G. Carmosino, F. Musicco, G. Conte, V. W. Anelli, T. Di Noia, and F. M. Donini, "The EpisTwin: A Knowledge Graph-Grounded Neuro-Symbolic Architecture for Personal AI," arXiv:2603.06290, Mar. 6 2026. [Online]. Available: https://arxiv.org/abs/2603.06290
+- *Cited in:* `prior_art_survey.md` §5.10.4 Cat-5
+- *Substrate-relevance:* Personal Knowledge Graph as verifiable user-centric semantic-triple substrate (SCC instantiation at personal-AI scale); decoupled storage (multimodal lifting → semantic triples) and reasoning (agentic coordinator with Graph RAG + Online Deep Visual Refinement). Multi-author paper from Italian research consortium (Politecnico di Bari + Università del Salento implied).
+
+[A29] Y. Wang and Y. Lu, "Interaction, Process, Infrastructure: A Unified Framework for Human-Agent Collaboration," arXiv:2506.11718, Jun. 13 2025 (v1); Dec. 24 2025 (v2). [Online]. Available: https://arxiv.org/abs/2506.11718
+- *Cited in:* `prior_art_survey.md` §5.10.5 Cat-5
+- *Substrate-relevance:* Three-layer framework (Interaction / Process / Infrastructure) with Process elevated to first-class concern as "explicit, inspectable structural representation of activities." Five-module Process Model. **NOTE: 2025 paper, not 2026** — predates much of the rest of this cluster; suggests the convergence pattern was already detectable in 2025 academic literature.
+
+[A30] D. B. Piskala, "MAPLE: A Sub-Agent Architecture for Memory, Learning, and Personalization in Agentic AI Systems," arXiv:2602.13258, Feb. 3 2026. [Online]. Available: https://arxiv.org/abs/2602.13258
+- *Cited in:* `prior_art_survey.md` §5.10.6 Cat-5
+- *Substrate-relevance:* Three-mechanism decomposition (Memory / Learning / Personalization) with separation-of-concerns + asynchronous operation + explicit user models. Each component is a "dedicated sub-agent with specialized tooling and well-defined interfaces"; 14.6% personalization improvement. Same-axiom-recurring-across-distinct-components shape at the sub-agent layer.
+
+[A31] S. Liu, S. Tian, K. Hu, Y. Dong, Z. Yang, B. Li, J. Yang, C. C. Loy, and Z. Liu, "FileGram: Grounding Agent Personalization in File-System Behavioral Traces," arXiv:2604.04901, Apr. 6 2026. [Online]. Available: https://arxiv.org/abs/2604.04901
+- *Cited in:* `prior_art_survey.md` §5.10.7 Cat-5 candidate
+- *Substrate-relevance:* FileGramOS bottom-up memory architecture builds user profiles directly from atomic actions and content deltas; three-channel memory routing (procedural / semantic / episodic) with query-time abstraction. Multi-author paper from NTU/MMLab Singapore implied. Code/project resources referenced as available.
+
+### A.8 Cat-4 supporting refs (related-work breadth, not axiom-convergent)
+
+[A32] A. Bering, "ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems," arXiv:2604.23878, 2026. [Online]. Available: https://arxiv.org/abs/2604.23878
+- *Cited in:* `prior_art_survey.md` §5.10 Cat-4 supporting (DEMOTED from initial Cat-5/6 candidate)
+- *Substrate-relevance:* Real 7-layer memory architecture (working / short-term / episodic / semantic / procedural / core / cross-context). **DEMOTED 2026-05-01 from initial Cat-5/6 candidate** because Exa-attributed citations of mempalace + Mastra + Claude Code Auto Dream + Karpathy were verified FABRICATED (not in actual paper). The "Practitioners and industry are converging on the same thesis" quote is also FABRICATED. Cite for the 7-layer architecture only as Cat-4 operating-instructions instance. Real comparators in paper: letta / a-mem / mem0 (LongMemEval-500 evaluation).
+
+[A33] L. Obiuwevwi, K. J. Rechowicz, V. Ashok, S. Shetty, and S. Jayarathna, "Cognitive Prosthetic: An AI-Enabled Multimodal System for Episodic Recall in Knowledge Work," arXiv:2603.02072, 2026. [Online]. Available: https://arxiv.org/abs/2603.02072
+- *Cited in:* `prior_art_survey.md` §5.10 Cat-4 supporting
+- *Substrate-relevance:* Cognitive Prosthetic Multimodal System (CPMS) combines speech transcripts + physiological signals + gaze behavior into temporally aligned episodic records; structured episodic capture; natural-language querying of past experiences; privacy safeguards. Cite for episodic-recall + multimodal-knowledge-work breadth at Related-Work scope. **Caveat:** Exa-attributed "Self-Organizing Personal Knowledge Assistants" framing was verified FABRICATED (not in actual paper).
+
 ---
 
 ## §B — Industry analyses (non-peer-reviewed but load-bearing)
@@ -177,9 +220,26 @@
 - *Notable:* CLAUDE.md exists at repository root (treated as vendor-canonical example in `case_studies/07_appendix_prevalence_study_preliminary_20260425.md`)
 - *Cited in:* Case Study 07 prevalence appendix as vendor-canonical CLAUDE.md exemplar
 
-[C7] Anthropic, "Public Agent Skills repository," GitHub repository, 2025 - present. [Online]. Available: https://github.com/anthropics/skills [Accessed 2026-04-25]
+[C7] Anthropic, "Public Agent Skills repository," GitHub repository, 2025 - present. [Online]. Available: https://github.com/anthropics/skills [Accessed 2026-05-01]
 - *Star count:* 124k stars (verified directly via WebFetch 2026-04-25)
-- *Cited in:* `prior_art_survey.md` Category 0 / Anthropic ecosystem; `Tool_Integration_Plan_DSPy_Langfuse_StackAI_ElevenLabs_HeyGen_20260425.md`
+- *Cited in:* **`prior_art_survey.md` §6.3 Category 6 (PROMOTED 2026-05-01 from Cat-4 to Cat-6 following code-level audit at `Writings/Source_Repos_Audit_20260501.md`)**; academic_paper_outline.md §1 + §2.7; `Tool_Integration_Plan_DSPy_Langfuse_StackAI_ElevenLabs_HeyGen_20260425.md`
+- *Substrate-relevance:* **HEADLINE Cat-6 case study for CHI 2027** — Anthropic's Skills system instantiates all three Substrate Thesis axioms (FKS via SKILL.md → scripts → references → agents → assets layering; SCC via name-stable frontmatter + plugin-marketplace versioning; SRD via skill-creator as canonical meta-recursive skill-for-creating-skills signature). The most-credentialed possible convergence anchor: the AI lab building the foundational AI independently converges on the same architecture this paper's framework predicts. Spec at agentskills.io/specification.
+
+[C7a] Anthropic, "Claude Cookbooks: 76 production-quality Jupyter notebooks for building with Claude," GitHub repository, 2024-present. [Online]. Available: https://github.com/anthropics/anthropic-cookbook [Accessed 2026-05-01]
+- *Star count:* 41k+ stars (per April 2026 documentation)
+- *Cited in:* **`prior_art_survey.md` §5.9 Category 5 (added 2026-05-01 following code-level audit at `Writings/Source_Repos_Audit_20260501.md`)**; academic_paper_outline.md §1 + §2.6
+- *License:* MIT
+- *Substrate-relevance:* **Cat-5 multi-axiom convergence at the pedagogical-infrastructure scale.** FKS via helper-modules + nested CLAUDE.md per subdirectory (operating-instructions inheritance pattern); SCC via registry.yaml schema-validated 76-notebook catalog + naming conventions (CMA_* prefix, etc.) + pre-commit validation; SRD via uniform notebook structural shape across all 76 entries. Combined with [C7] Skills, Anthropic now has TWO Cat-5+ artifacts in prior_art_survey demonstrating the framework's axioms across BOTH pedagogical infrastructure AND production capability infrastructure.
+
+[C7b] Park, M.W. / need-singularity org, "Independent research organization with multi-axiom convergence across 14+ repos," GitHub organization, 2025-present. [Online]. Available: https://github.com/need-singularity [Accessed 2026-04-30]
+- *Cited in:* **`prior_art_survey.md` §6.2 Category 6 (added 2026-04-30; per-repo entries at §5.4 nexus / §5.5 papers / §5.6 n6-architecture / §5.7 anima / §5.8 hexa-lang)**; academic_paper_outline.md §2.6 + §2.7
+- *Author:* Park Min Woo (Independent Research)
+- *Substrate-relevance:* **Cat-6 whole-ecosystem convergence (secondary entry alongside Miessler [C17a-f] primary case and Anthropic Skills [C7] tertiary case).** Five distinct Cat-5 components within one stack (nexus FKS in OUROBOROS cycle; papers SCC in DOI-anchored Zenodo+OSF dual-archive; n6-architecture SRD in cross-domain pattern-recurrence; anima SRD in cross-substrate consciousness implementation; hexa-lang SRD in multi-target single-source compilation). Per-repo adoption-tier varies per `prior_art_survey.md §5.4-5.8` per-repo summary table.
+
+[C7c] Park, M.W. / need-singularity, "papers: Complete paper collection with DOI-anchored Zenodo+OSF dual-archive," GitHub repository, 2025-present. [Online]. Available: https://github.com/need-singularity/papers [Accessed 2026-05-01]
+- *Cited in:* `prior_art_survey.md` §5.5 (verified 2026-05-01 via Source_Repos audit)
+- *Umbrella DOI:* 10.5281/zenodo.19271599 (CC BY 4.0)
+- *Substrate-relevance:* **Cat-5 single-axiom convergence (SCC) at research-publication-layer.** 120 papers / 92 published; schema-validated manifest.json; per-paper Zenodo DOIs; name-stable IDs (P-001, PA-01-..., etc.). Most-direct example of SCC discipline at corpus scale in any prior-art surveyed.
 
 [C8] tadata-org, "fastapi_mcp: Expose secure FastAPI endpoints as MCP tools," GitHub repository. [Online]. Available: https://github.com/tadata-org/fastapi_mcp
 - *Cited in:* `Tool_Integration_Plan_DSPy_Langfuse_StackAI_ElevenLabs_HeyGen_20260425.md` §6 candidates from GitHub blog [B2]

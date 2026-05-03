@@ -1,5 +1,5 @@
 # Build Your Own Substrate
-## Essay 7 of 7 — Substrate Thesis series
+## Essay 7 of 8 — Substrate Thesis series
 
 ---
 
@@ -143,4 +143,4 @@ The substrate is a starting point, not an end state. The patterns are vocabulary
 
 ---
 
-*Substrate Thesis · Essay 7 of 7 · Series concludes with this essay. Substrate Thesis Companion repository (github.com/barelyaninconvenience/substrate-thesis-companion) holds the deeper material referenced throughout the series. Future case studies + prevalence research will accumulate as the framework is tested by other practitioners. Category 5 homeomorphism evidence (mempalace and adjacent) at substrate-thesis-companion/docs/prior_art_survey.md §5.*
+*Substrate Thesis · Essay 7 of 8 · Build-your-own-substrate guide; companion to forthcoming Essay 8 (cross-practitioner convergence). Substrate Thesis Companion repository (github.com/barelyaninconvenience/substrate-thesis-companion) holds the deeper material referenced throughout the series. Future case studies + prevalence research will accumulate as the framework is tested by other practitioners. Category 5 homeomorphism evidence (mempalace and adjacent) at substrate-thesis-companion/docs/prior_art_survey.md §5.*

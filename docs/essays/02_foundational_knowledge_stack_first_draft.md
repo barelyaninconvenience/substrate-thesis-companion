@@ -1,5 +1,5 @@
 # Foundational Knowledge Stack — When Layers Hold
-## Essay 2 of 7 — Substrate Thesis series
+## Essay 2 of 8 — Substrate Thesis series
 
 ---
 
@@ -153,4 +153,4 @@ If FKS doesn't resonate — if you find your cognitive infrastructure exhibits s
 
 ---
 
-*Substrate Thesis · Essay 2 of 7 · Theory backing: substrate-thesis-companion/theory/FKS_Definition_and_Examples.md (v2.1, expanded 2026-04-24). Six worked examples, eight anti-patterns with mitigations, formal graph-notation diagnostic, FKS-at-different-scales analysis (per-artifact / per-project / per-practitioner / per-team), practitioner-framework comparison (Forte BASB / Matuschak Evergreen / Luhmann Zettelkasten / Allen GTD / Miessler Substrate), software-architecture comparisons (Clean / Hexagonal / Onion), and compliance metrics (proposed FKS Health Index) all live there. Category 5 homeomorphism evidence (mempalace and adjacent) lives at substrate-thesis-companion/docs/prior_art_survey.md §5.*
+*Substrate Thesis · Essay 2 of 8 · Theory backing: substrate-thesis-companion/theory/FKS_Definition_and_Examples.md (v2.1, expanded 2026-04-24). Six worked examples, eight anti-patterns with mitigations, formal graph-notation diagnostic, FKS-at-different-scales analysis (per-artifact / per-project / per-practitioner / per-team), practitioner-framework comparison (Forte BASB / Matuschak Evergreen / Luhmann Zettelkasten / Allen GTD / Miessler Substrate), software-architecture comparisons (Clean / Hexagonal / Onion), and compliance metrics (proposed FKS Health Index) all live there. Category 5 homeomorphism evidence (mempalace and adjacent) lives at substrate-thesis-companion/docs/prior_art_survey.md §5.*

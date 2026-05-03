@@ -1,5 +1,5 @@
 # Stable Cognitive Containers — The Power of Frozen References
-## Essay 3 of 7 — Substrate Thesis series
+## Essay 3 of 8 — Substrate Thesis series
 
 ---
 
@@ -194,4 +194,4 @@ If your cognitive infrastructure exhibits SCC discipline already and the failure
 
 ---
 
-*Substrate Thesis · Essay 3 of 7 · Theory backing: substrate-thesis-companion/theory/SCC_Definition_and_Examples.md (v2.1, expanded 2026-04-24). Six worked examples, eight anti-patterns with mitigations, formal version-graph-plus-freshness-gap notation, SCC-at-different-scales analysis (per-artifact / per-session / per-practitioner / per-team), practitioner-framework comparison (Forte PARA / Matuschak Evergreen / Allen GTD / Luhmann Zettelkasten), event-sourcing + Git-as-SCC-substrate + formal-methods related-work, and compliance metrics (proposed SCC Health Index) all live there. Category 5 homeomorphism evidence (mempalace and adjacent) lives at substrate-thesis-companion/docs/prior_art_survey.md §5.*
+*Substrate Thesis · Essay 3 of 8 · Theory backing: substrate-thesis-companion/theory/SCC_Definition_and_Examples.md (v2.1, expanded 2026-04-24). Six worked examples, eight anti-patterns with mitigations, formal version-graph-plus-freshness-gap notation, SCC-at-different-scales analysis (per-artifact / per-session / per-practitioner / per-team), practitioner-framework comparison (Forte PARA / Matuschak Evergreen / Allen GTD / Luhmann Zettelkasten), event-sourcing + Git-as-SCC-substrate + formal-methods related-work, and compliance metrics (proposed SCC Health Index) all live there. Category 5 homeomorphism evidence (mempalace and adjacent) lives at substrate-thesis-companion/docs/prior_art_survey.md §5.*

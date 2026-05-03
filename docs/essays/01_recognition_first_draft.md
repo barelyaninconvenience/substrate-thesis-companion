@@ -1,5 +1,5 @@
 # The Substrate I Didn't Know I Was Building
-## Essay 1 of 7 — Substrate Thesis series
+## Essay 1 of 8 — Substrate Thesis series
 
 ---
 
@@ -112,4 +112,4 @@ If the framework is useful, take it. If you find places where it breaks down, wr
 
 ---
 
-*Substrate Thesis · Essay 1 of 7. The author is an Information Systems graduate student building toward a PhD application in cybersecurity research while maintaining a personal substrate that includes multiple analytical datasets, tens of thousands of words of personal writing, a multi-source structured-data crawler, dozens of PowerShell automation scripts, and the audit cadences that keep all of it coherent. The Substrate Thesis is what fell out of trying to keep the substrate from collapsing under its own weight.*
+*Substrate Thesis · Essay 1 of 8. The author is an Information Systems graduate student building toward a PhD application in cybersecurity research while maintaining a personal substrate that includes multiple analytical datasets, tens of thousands of words of personal writing, a multi-source structured-data crawler, dozens of PowerShell automation scripts, and the audit cadences that keep all of it coherent. The Substrate Thesis is what fell out of trying to keep the substrate from collapsing under its own weight.*

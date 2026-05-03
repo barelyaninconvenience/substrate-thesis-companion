@@ -1,5 +1,5 @@
 # Anti-Patterns and How They Surface
-## Essay 6 of 7 — Substrate Thesis series
+## Essay 6 of 8 — Substrate Thesis series
 
 ---
 
@@ -185,4 +185,4 @@ If your substrate exhibits anti-patterns I haven't named — failure modes that 
 
 ---
 
-*Substrate Thesis · Essay 6 of 7 · Anti-pattern catalogs sourced from substrate-thesis-companion/theory/{FKS,SCC,SRD}_Definition_and_Examples.md (v2.1, expanded 2026-04-24). Each theory document now carries eight named anti-patterns with mitigations (24 total across the three patterns); SRD additionally includes four anti-case studies of failed portability attempts. This essay surfaces the cross-cutting anti-patterns most likely to affect working practice; the theory docs carry the full catalog and formal diagnostic tests. Category 5 homeomorphism evidence (mempalace) at substrate-thesis-companion/docs/prior_art_survey.md §5.*
+*Substrate Thesis · Essay 6 of 8 · Anti-pattern catalogs sourced from substrate-thesis-companion/theory/{FKS,SCC,SRD}_Definition_and_Examples.md (v2.1, expanded 2026-04-24). Each theory document now carries eight named anti-patterns with mitigations (24 total across the three patterns); SRD additionally includes four anti-case studies of failed portability attempts. This essay surfaces the cross-cutting anti-patterns most likely to affect working practice; the theory docs carry the full catalog and formal diagnostic tests. Category 5 homeomorphism evidence (mempalace) at substrate-thesis-companion/docs/prior_art_survey.md §5.*
