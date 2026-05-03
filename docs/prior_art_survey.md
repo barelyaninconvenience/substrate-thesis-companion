@@ -670,7 +670,7 @@ This is the **most direct cross-practitioner influence** in the author's operati
 
 ### 5.10 Academic-paper Cat-5 cluster — verified anchors from Exa literature haul (added 2026-05-01 via WebFetch verification cycle)
 
-**Status:** 7 academic papers confirmed at Cat-5 single-axiom convergence following per-paper WebFetch verification of Exa literature haul (10 papers; 9 verified via arxiv, 1 unverifiable). Full verification report at `Writings/Exa_Literature_Haul_Verification_20260501.md`. Calibration discipline at `memory/feedback_exa_result_tier_verification.md`.
+**Status:** 7 academic papers confirmed at Cat-5 single-axiom convergence following per-paper WebFetch verification of an external literature-search haul (10 papers candidate; 9 verified via arxiv, 1 unverifiable through this method). Verification was four-axis (paper-existence / architecture-claim accuracy / cited-references accuracy / quoted-material accuracy); entries that failed axes were demoted with explicit fabrication callouts (see `bibliography.md §A.8`).
 
 **Why a single cluster entry:** Each paper individually warrants a per-entry treatment for full publication-track use, but at this audit's scope (per-paper abstract-level verification, not full content audit), the cluster entry establishes citable presence in the canonical survey while leaving room for per-paper expansion when each is consumed in CHI 2027 §2 Related Work drafting.
 

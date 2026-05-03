@@ -110,7 +110,7 @@
 
 ### A.7 Personal AI memory + cognitive-architecture convergence anchors (Cat-5 academic-paper cluster — added 2026-05-01)
 
-Verified through WebFetch verification cycle 2026-05-01 against Exa literature haul. Full audit at `Writings/Exa_Literature_Haul_Verification_20260501.md`. Citation discipline per `memory/feedback_exa_result_tier_verification.md`.
+Verified through WebFetch verification cycle 2026-05-01 against an external literature-search haul. Each citation below was checked along four axes (paper-existence / architecture-claim accuracy / cited-references accuracy / quoted-material accuracy) before inclusion; entries with axis failures were demoted to §A.8 with explicit fabrication callouts (the Substrate Thesis project applies a search-result tier-verification discipline whereby tier-1+2 Exa output is reliable, tier-3+4 require WebFetch confirmation before propagation).
 
 [A25] M. Roynard, "The Missing Knowledge Layer in Cognitive Architectures for AI Agents," arXiv:2604.11364, Apr. 13 2026. [Online]. Available: https://arxiv.org/abs/2604.11364
 - *Affiliation:* LAAS-OASIS
